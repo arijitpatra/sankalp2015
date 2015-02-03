@@ -104,6 +104,7 @@ margin: 0px 30px 30px 30px;
 	width: 100%;
 	min-height: 400px;
 	height: 600px;
+
 }
 
 #pic-container
@@ -292,7 +293,7 @@ margin: 0px 30px 30px 30px;
 #footer
 {
 	width: 100%;
-	background-color: #172027;
+	background-color: #17211B;
 	height: 200px;
 	position: relative;
 }
@@ -438,6 +439,26 @@ margin: 0px 30px 30px 30px;
 	position: absolute;	
 }
 
+
+#social-links
+{
+	top: 35%;
+	padding-left: 75%;
+	color: white;
+	font-family: 'Open Sans', serif;
+	position: absolute;
+}
+
+#pattern
+{
+	width: 100%;
+	position: absolute;
+	background: url("bcity.png");
+	background-repeat: repeat-x;
+	top: -50px;
+	height: 50px;
+}
+
 	
 </style>
 
@@ -449,8 +470,10 @@ margin: 0px 30px 30px 30px;
 
 	<div id="slide-container">
 		<div id="pic-container">
+			
 			<div id="big-logo" class="circle">			
 			</div>
+
 			<div class="picture-item"></div>
 		</div>
 	</div>
@@ -462,9 +485,9 @@ margin: 0px 30px 30px 30px;
 			</div>
 
 			<div id="menu-icon" onclick="scrollTo('#menus')"><span class="glyphicon glyphicon-list"></span></div>
-			<div id="button-container">
+			<a href="register.html" style="text-decoration"><div id="button-container">
 				REGISTER
-			</div>
+			</div></a>
 			
 		</div>	
 	</div>
@@ -631,8 +654,25 @@ margin: 0px 30px 30px 30px;
 	</div>
 
 	<div id="footer">
-		<div id="foot-text"><p><span style="font-size:25px">See you at</span><br><span style="font-size:45px">Sankalp '15 :)</div></span></p><br><br>
-		<div id="made"><span style="font-family: 'Open Sans',serif;font-size:12px">Made with <span class="glyphicon glyphicon-heart" style="color:red"></span> at NITMAS</span></div>
+		<div id="pattern">.</div>
+		<div id="foot-text"><p><span style="font-size:25px">see you at</span><br><span style="font-size:45px">Sankalp '15 :)</div></span></p>
+
+		<div id="social-links">
+			<span style="font-size:12px;margin-bottom: -12px;display: block;top: -9px;position: relative;">Hola find us on social media: </span>
+			
+			<img src="fb.png" width="50px" style="top: -30px;right: -160px;position: relative;">
+			
+				<br>
+			<p style="margin-top: -30px;">
+				<span class="glyphicon glyphicon-earphone" ></span>&nbsp<span style="font-size:12px;">+91 98765 12345</span><br><br>
+				<span class="glyphicon glyphicon-envelope"></span>&nbsp<a style="font-size:12px;text-decoration:none;color:white" href="mailto:info@snklp.in?Subject=Web%20Enquiry">info@snklp.in</a><br>
+			</p>
+		</div>
+		<br>
+		<br>
+		<div id="made">
+			<span style="font-family: 'Open Sans',serif;font-size:12px">Crafted with <span class="glyphicon glyphicon-heart" style="color:red"></span> at <a href="http://www.nitmas.edu.in" target="_blank" style="text-decoration:none"><span style="color:orange">NITMAS</span></a></span>
+		</div>
 	
 	</div>
 
