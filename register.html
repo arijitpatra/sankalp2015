@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" href="logo.png">
 	
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">   <!--ONLY TO USE GLYPHICONS,WE ARE AVOIDING THIS CRAP AS MUCH AS POSSIBLE-->
 
 
 <style>
@@ -16,7 +16,7 @@
 #reg-box
 {
 	
-	border:15px solid #048d3b;
+	
 	width:70%;
 	margin-left: 15%;
 	height: 1000px;
@@ -38,7 +38,8 @@
 {
 	width:70%;
 	font-family: segoe ui light, 'Open Sans', sans-serif;
-	margin-left: 14
+	margin-left: 14;
+	
 }
 
 .box
@@ -68,8 +69,10 @@
 	-moz-box-shadow: 0px 0px 3px 0px #ccc;
 	-webkit-box-shadow: 0px 0px 3px 0px #ccc;
 	box-shadow: 0px 0px 3px 0px #ccc;
-	margin-left:20%;
-	margin-bottom: 10px;
+	margin-left:33%;
+	
+	border-radius:0px 10px 10px 0px;
+	height: 50px;
 
 
 }
@@ -78,14 +81,55 @@
 {
 	color: white;
 	position: relative;
-	top: 34px;
-	left: 65px;
-	font-size: 22px;
+	top: 50px;
+	left: 122px;
+	font-size: 18px;
 	border: 1px solid #048d3b;
 	background-color: #048d3b;
-	padding: 5px;
-	border-radius: 0px;
+	padding: 15px;
+	border-radius: 5px 0px 0px 5px;
 }
+
+#contact-icon
+{
+	color: white;
+	position: relative;
+	
+	left: 123px;
+	font-size: 18px;
+	border: 1px solid #048d3b;
+	background-color: #048d3b;
+	padding: 15px;
+	border-radius: 5px 0px 0px 5px;	
+}
+
+#college-icon
+{
+	color: white;
+	position: relative;
+	top: -48px;
+	left: 124px;
+	font-size: 18px;
+	border: 1px solid #048d3b;
+	background-color: #048d3b;
+	padding: 15px;
+	border-radius: 5px 0px 0px 5px;	
+
+}
+
+#mail-icon
+{
+	color: white;
+	position: relative;
+	top: -48px;
+	left: 124px;
+	font-size: 18px;
+	border: 1px solid #048d3b;
+	background-color: #048d3b;
+	padding: 15px;
+	border-radius: 5px 0px 0px 5px;	
+}
+
 
 
 </style>
@@ -100,14 +144,20 @@
 
 <div class="wrapper">
 	<div id="reg-box">
-		<p style="background-color: #048d3b;margin-top:0px;padding:10px;font-size:35px;height:75px">Registration</p>
+		<p style="background-color: #048d3b;margin-top:0px;padding:18px;font-size:25px;height:75px;border: 1px solid #048d3b;border-radius: 10px 10px 0px 0px"><span class="glyphicon glyphicon-bookmark" style="top: 7px;"></span>Registration<a href="landing.html" target="_blank" style="text-decoration:none;color:white"><span class="glyphicon glyphicon-home" style="top: 7px;left: 75%"></a></p>
 			<div id="fields">
-				<p>
-					<span class="glyphicon glyphicon-user" id="user-icon"></span><input type="text" name="nme" class="box2" placeholder="Name" style="width:100%;border: 1px solid #048d3b;color:blue;">
-					<input type="digit" name="cnt" class="box2" placeholder="Contact" style="width:100%;border: 1px solid #048d3b;color:blue;">
-					<input type="text" name="clg" class="box2" placeholder="College" style="width:100%;border: 1px solid #048d3b;color:blue;">
-				</p>
+				
+					<span class="glyphicon glyphicon-user" id="user-icon" style="top: 50px;"></span><input type="text" name="nme" class="box2" placeholder="Name" style="width:85%;border: 1px solid #048d3b;color:#191919;position: relative;left: 0px;border-right:5px solid #FF0000;">
+				
+					<span class="glyphicon glyphicon-phone" id="contact-icon"></span><input type="digit" name="cnt" class="box2" placeholder="Mobile" style="width:85%;border: 1px solid #048d3b;color:#191919;position: relative;top: -49px;left: 0px;border-right:5px solid #FF0000;">
+				
+				
+					<span class="glyphicon glyphicon-book" id="college-icon"></span><input type="text" name="clg" class="box2" placeholder="College" style="width:85%;border: 1px solid #048d3b;color:#191919;position: relative;top: -98px;left: 1px;border-right:5px solid #FF0000;">
+
+					<span class="glyphicon glyphicon-envelope" id="mail-icon" style="top: -97px;"></span><input type="email" name="eml" class="box2" placeholder="E-mail" style="width:85%;border: 1px solid #048d3b;color:#191919;position: relative;top: -147px;left: 1px;border-right:5px solid #FF0000;">
+		</p>
 			</div>
+	<p style="background-color: #048d3b;margin-top:0px;padding:10px;font-size:35px;height:100px;text-align:center;border: 1px solid #048d3b;border-radius: 0px 0px 10px 10px"><span class="glyphicon glyphicon-star" style="text-align:center;font-size:15px;position: relative;top: 13px;"></span ><span id="calendar" style="font-size:12px;text-align:center;top: 10px;position: relative;color:white"><a href="https://www.google.com/calendar" target="_blank" style="text-decoration:none;color:white">&nbsp mark your calendar,March 14th-16th,2015,see you!</span>&nbsp</a><span class="glyphicon glyphicon-star" style="text-align:center;font-size:15px;position: relative;top: 13px;"></p>
 	</div>
 </div>
 
