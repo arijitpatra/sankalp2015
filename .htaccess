@@ -1,0 +1,14 @@
+<Files .htaccess> 
+order allow,deny 
+deny from all 
+</Files> 
+
+ErrorDocument 404 /error.php
+ErrorDocument 405 /error.php
+ErrorDocument 500 /error.php
+ErrorDocument 401 /error.php
+ErrorDocument 403 /error.php
+
+RewriteEngine On
+
+RewriteRule ^workshop$ workshop.php

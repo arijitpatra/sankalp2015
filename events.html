@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" href="logo.png">
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> <!--ONLY TO USE GLYPHICONS & COUNTDOWN TIMER,WE ARE AVOIDING THIS CRAP AS MUCH AS POSSIBLE-->
+
+
+<style type="text/css">
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+html,body 
+{
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+}
+
+#nav-bar
+{
+	width: 100%;
+	background-color: #28ae7f;
+	height: 100px;
+	position: relative;
+	transition: all 0.2s;
+	padding-top: 13px;
+}
+
+#logo-container
+{
+	position: absolute;
+	height: 52px;
+	width: 200px;
+	top:27%;
+	left: 3%;
+}
+.wrapper
+{
+	padding: 16px;
+	position: relative;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+#button-container
+{
+	float: right;
+	margin-right:0px;
+	padding: 15px 20px;
+	border:1px solid white;
+	background-color:#28ae7f;
+	color:white;
+	font-family: 'segoe ui light', 'Open sans', sans-serif;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+#menu-icon
+{
+	font-size: 22px;
+	background-color:#28ae7f;
+	color:white;
+	float: right;
+	display: none;
+	border: 1px solid white;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#event-names
+{
+	height: 500px;
+	width:100%;
+	text-align: center;
+}
+
+
+#event-robotics
+{
+	text-align: center;
+	padding: 35px 15px;
+	border: 1px solid #28ae7f;
+	background-color: white;
+	color: #28ae7f;
+	font-family: 'Open sans', sans-serif;
+	transition: all 0.5s;
+	cursor: pointer;
+	display: inline-block;
+	width:25%;
+	margin: 15px;
+	font-size: 25px;
+
+}
+
+#event-coding
+{
+	text-align: center;
+	padding: 35px 15px;
+	border: 1px solid #28ae7f;
+	background-color: white;
+	color: #28ae7f;
+	font-family: 'Open sans', sans-serif;
+	transition: all 0.5s;
+	cursor: pointer;
+	display: inline-block;
+	width:25%;
+	margin: 15px;
+	font-size: 25px;
+
+}
+
+#event-photography
+{
+	text-align: center;
+	padding: 35px 15px;
+	border: 1px solid #28ae7f;
+	background-color: white;
+	color: #28ae7f;
+	font-family: 'Open sans', sans-serif;
+	transition: all 0.5s;
+	cursor: pointer;
+	display: inline-block;
+	width:25%;
+	margin: 15px;
+	font-size: 25px;
+
+}
+
+#event-junkyard
+{
+	text-align: center;
+	padding: 35px 15px;
+	border: 1px solid #28ae7f;
+	background-color: white;
+	color: #28ae7f;
+	font-family: 'Open sans', sans-serif;
+	transition: all 0.5s;
+	cursor: pointer;
+	display: inline-block;
+	width:25%;
+	margin: 15px;
+	font-size: 25px;
+
+}
+
+#event-gaming
+{
+	text-align: center;
+	padding: 35px 15px;
+	border: 1px solid #28ae7f;
+	background-color: white;
+	color: #28ae7f;
+	font-family: 'Open sans', sans-serif;
+	transition: all 0.5s;
+	cursor: pointer;
+	display: inline-block;
+	width:25%;
+	margin: 15px;
+	font-size: 25px;
+
+}
+
+#event-name
+{
+	text-align: center;
+	padding: 35px 15px;
+	border: 1px solid #28ae7f;
+	background-color: white;
+	color: #28ae7f;
+	font-family: 'Open sans', sans-serif;
+	transition: all 0.5s;
+	cursor: pointer;
+	display: inline-block;
+	width:25%;
+	margin: 15px;
+	font-size: 25px;
+
+}
+
+
+#event-name
+{
+	text-align: center;
+	padding: 35px 15px;
+	border: 1px solid #28ae7f;
+	background-color: white;
+	color: #28ae7f;
+	font-family: 'Open sans', sans-serif;
+	transition: all 0.5s;
+	cursor: pointer;
+	display: inline-block;
+	width:25%;
+	margin: 15px;
+	font-size: 25px;
+
+}
+
+#event-name
+{
+	text-align: center;
+	padding: 35px 15px;
+	border: 1px solid #28ae7f;
+	background-color: white;
+	color: #28ae7f;
+	font-family: 'Open sans', sans-serif;
+	transition: all 0.5s;
+	cursor: pointer;
+	display: inline-block;
+	width:25%;
+	margin: 15px;
+	font-size: 25px;
+
+}
+
+#event-name
+{
+	text-align: center;
+	padding: 35px 15px;
+	border: 1px solid #28ae7f;
+	background-color: white;
+	color: #28ae7f;
+	font-family: 'Open sans', sans-serif;
+	transition: all 0.5s;
+	cursor: pointer;
+	display: inline-block;
+	width:25%;
+	margin: 15px;
+	font-size: 25px;
+
+}
+
+
+
+#event-robotics:hover
+{
+	border: 1px solid #28ae7f;
+	background-color: #28ae7f;
+	color: white;
+	font-family: 'Open sans', sans-serif;
+	cursor: pointer;
+}
+
+#event-coding:hover
+{
+	border: 1px solid #28ae7f;
+	background-color: #FFCC00;
+	color: white;
+	font-family: 'Open sans', sans-serif;
+	cursor: pointer;
+}
+
+#event-photography:hover
+{
+	border: 1px solid #28ae7f;
+	background-color: #33D633;
+	color: white;
+	font-family: 'Open sans', sans-serif;
+	cursor: pointer;
+}
+
+#event-junkyard:hover
+{
+	border: 1px solid #28ae7f;
+	background-color: #9933FF;
+	color: white;
+	font-family: 'Open sans', sans-serif;
+	cursor: pointer;
+}
+
+#event-gaming:hover
+{
+	border: 1px solid #28ae7f;
+	background-color: #FF1919;
+	color: white;
+	font-family: 'Open sans', sans-serif;
+	cursor: pointer;
+}
+
+#event-name:hover
+{
+	border: 1px solid #28ae7f;
+	background-color: #28ae7f;
+	color: white;
+	font-family: 'Open sans', sans-serif;
+	cursor: pointer;
+}
+
+#event-name:hover
+{
+	border: 1px solid #28ae7f;
+	background-color: #28ae7f;
+	color: white;
+	font-family: 'Open sans', sans-serif;
+	cursor: pointer;
+}
+
+#event-name:hover
+{
+	border: 1px solid #28ae7f;
+	background-color: #28ae7f;
+	color: white;
+	font-family: 'Open sans', sans-serif;
+	cursor: pointer;
+}
+
+#event-name:hover
+{
+	border: 1px solid #28ae7f;
+	background-color: #28ae7f;
+	color: white;
+	font-family: 'Open sans', sans-serif;
+	cursor: pointer;
+}
+
+#robotics-head
+{
+	height: 135px;
+	width:100%;
+	background-color: #0D5959;
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35px;
+	padding-top: 35px;
+
+}
+
+#coding-head
+{
+	height: 135px;
+	width: 100%;
+	background-color: #0D5959;
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35px;
+	padding-top: 35px;
+
+}
+
+.space
+{
+	height: 200px;
+}
+
+#footer
+{
+	width: 100%;
+	background-color: #17211B;
+	height: 200px;
+	position: relative;
+}
+
+#foot-text
+{
+	top: 35%;
+	padding-left: 5%;
+	color: white;
+	font-family: 'Open Sans', serif;
+	position: absolute;
+}
+	
+
+#made
+{
+	bottom: 10%;
+	padding-left: 45%;
+	color: white;
+	font-family: 'Open Sans', serif;
+	position: absolute;	
+}
+
+
+#social-links
+{
+	top: 35%;
+	padding-left: 75%;
+	color: white;
+	font-family: 'Open Sans', serif;
+	position: absolute;
+}
+
+#pattern
+{
+	width: 100%;
+	position: absolute;
+	background: url("bcity.png");
+	background-repeat: repeat-x;
+	top: -50px;
+	height: 50px;
+}
+
+.event-content
+{
+	height:500px;
+	color: black;
+	font-family: 'Open Sans', serif;
+}
+
+
+
+</style>
+
+</head>
+
+<title>Sankalp 2015 | Events</title>
+
+<body>
+
+<div id="nav-bar">
+		<div class="wrapper">
+			<a href="landing.html" style="text-decoration:none"><div id="logo-container">
+				<img src="sankalp2.png" width="200px">
+			</div></a>
+
+			<div id="menu-icon" onclick="scrollTo('#menus')"><span class="glyphicon glyphicon-list"></span></div>
+			<a href="register.html" style="text-decoration:none"><div id="button-container">
+				REGISTER
+ 			</div></a>
+		</div>	
+</div>
+
+<br><br>
+
+<div id="event-names">
+	<div id="event-robotics" onclick="scrollTo('#robotics-head')">
+		Robotics
+	</div>
+	<div id="event-coding" onclick="scrollTo('#coding-head')">
+		Coding
+	</div>
+	<div id="event-photography" onclick="scrollTo('#photography-head')">
+		Photography
+	</div>
+	
+	<br>
+
+	<div id="event-junkyard" onclick="scrollTo('#junkyard-head')">
+		Junkyard
+	</div>
+
+	<div id="event-gaming" onclick="scrollTo('#gaming-head')">
+		Gaming<br><span style="font-size:12px">FIFA | NFS | CS | DOTA</span>
+	</div>
+
+	<div id="event-name">
+		Event
+	</div>
+
+	<br>
+
+	<div id="event-name">
+		Event
+	</div>
+
+	<div id="event-name">
+		Event
+	</div>
+
+	<div id="event-name">
+		Event
+	</div>
+</div>
+
+
+
+<div id="robotics-head">
+	Robotics
+</div><br>
+<div class="wrapper">
+	<div class="event-content">
+		Details blah blah blah,i.e. Event Description<hr><br><br>
+		<span style="font-size:35px">Rules & Regulations</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		1. Rules and Regulations<br>
+		2. Rules and Regulations<br>
+		3. Rules and Regulations
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Prizes</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		First prize<br>
+		Second prize<br>
+		Third Prize
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Co-odinators</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Name Surname | Head Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888
+		</span>
+	</div>
+</div>
+
+
+<div class="space"></div>
+
+<div id="coding-head">
+	Coding
+</div><br>
+<div class="wrapper">
+	<div class="event-content">
+		Details blah blah blah,i.e. Event Description<hr><br><br>
+		<span style="font-size:35px">Rules & Regulations</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		1. Rules and Regulations<br>
+		2. Rules and Regulations<br>
+		3. Rules and Regulations
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Prizes</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		First prize<br>
+		Second prize<br>
+		Third Prize
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Co-odinators</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Name Surname | Head Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888
+		</span>
+	</div>
+</div>
+
+
+
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+
+
+<div id="footer">
+		<div id="pattern">.</div>
+		<div id="foot-text"><p><span style="font-size:25px">see you at</span><br><span style="font-size:45px">Sankalp '15 :)</span></p></div>
+
+		<div id="social-links">
+			<span style="font-size:12px;margin-bottom: -12px;display: block;top: -9px;position: relative;">Hola find us on social media: </span>
+			
+			<img src="fb.png" width="50px" style="top: -30px;right: -160px;position: relative;">
+			
+				<br>
+			<p style="margin-top: -30px;">
+				<span class="glyphicon glyphicon-earphone" ></span>&nbsp<span style="font-size:12px;">+91 98765 12345</span><br><br>
+				<span class="glyphicon glyphicon-envelope"></span>&nbsp<a style="font-size:12px;text-decoration:none;color:white" href="mailto:info@snklp.in?Subject=Web%20Enquiry">info@snklp.in</a><br>
+			</p>
+		</div>
+		<br>
+		<br>
+		<div id="made">
+			<span style="font-family: 'Open Sans',serif;font-size:12px">Crafted with <span class="glyphicon glyphicon-heart" style="color:red"></span> at <a href="http://www.nitmas.edu.in" target="_blank" style="text-decoration:none"><span style="color:orange">NITMAS</span></a></span>
+		</div>
+	
+	</div>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+<script type="text/javascript" src="kinetic.js"></script> 
+<script type="text/javascript" src="jquery.final-countdown.js"></script> 
+
+<script type="text/javascript">
+	function scrollTo(target)
+	{
+		$('html,body').animate({
+			scrollTop: parseInt($(target).offset().top)
+		})
+	}
+</script>
+
+
+</body>
+</html>
