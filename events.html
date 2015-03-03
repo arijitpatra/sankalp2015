@@ -6,405 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="shortcut icon" href="logo.png">
-	
+	<link rel="stylesheet" href="css/events.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> <!--ONLY TO USE GLYPHICONS & COUNTDOWN TIMER,WE ARE AVOIDING THIS CRAP AS MUCH AS POSSIBLE-->
-
-
-<style type="text/css">
-
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
-
-html,body 
-{
-	height: 100%;
-	width: 100%;
-	min-height: 100%;
-}
-
-#nav-bar
-{
-	width: 100%;
-	background-color: #28ae7f;
-	height: 100px;
-	position: relative;
-	transition: all 0.2s;
-	padding-top: 13px;
-}
-
-#logo-container
-{
-	position: absolute;
-	height: 52px;
-	width: 200px;
-	top:27%;
-	left: 3%;
-}
-.wrapper
-{
-	padding: 16px;
-	position: relative;
-	margin: 0 auto;
-	max-width: 1100px;
-}
-
-#button-container
-{
-	float: right;
-	margin-right:0px;
-	padding: 15px 20px;
-	border:1px solid white;
-	background-color:#28ae7f;
-	color:white;
-	font-family: 'segoe ui light', 'Open sans', sans-serif;
-	transition: all 0.5s;
-	cursor: pointer;
-}
-#menu-icon
-{
-	font-size: 22px;
-	background-color:#28ae7f;
-	color:white;
-	float: right;
-	display: none;
-	border: 1px solid white;
-	padding: 10px;
-	cursor: pointer;
-}
-
-#event-names
-{
-	height: 500px;
-	width:100%;
-	text-align: center;
-}
-
-
-#event-robotics
-{
-	text-align: center;
-	padding: 35px 15px;
-	border: 1px solid #28ae7f;
-	background-color: white;
-	color: #28ae7f;
-	font-family: 'Open sans', sans-serif;
-	transition: all 0.5s;
-	cursor: pointer;
-	display: inline-block;
-	width:25%;
-	margin: 15px;
-	font-size: 25px;
-
-}
-
-#event-coding
-{
-	text-align: center;
-	padding: 35px 15px;
-	border: 1px solid #28ae7f;
-	background-color: white;
-	color: #28ae7f;
-	font-family: 'Open sans', sans-serif;
-	transition: all 0.5s;
-	cursor: pointer;
-	display: inline-block;
-	width:25%;
-	margin: 15px;
-	font-size: 25px;
-
-}
-
-#event-photography
-{
-	text-align: center;
-	padding: 35px 15px;
-	border: 1px solid #28ae7f;
-	background-color: white;
-	color: #28ae7f;
-	font-family: 'Open sans', sans-serif;
-	transition: all 0.5s;
-	cursor: pointer;
-	display: inline-block;
-	width:25%;
-	margin: 15px;
-	font-size: 25px;
-
-}
-
-#event-junkyard
-{
-	text-align: center;
-	padding: 35px 15px;
-	border: 1px solid #28ae7f;
-	background-color: white;
-	color: #28ae7f;
-	font-family: 'Open sans', sans-serif;
-	transition: all 0.5s;
-	cursor: pointer;
-	display: inline-block;
-	width:25%;
-	margin: 15px;
-	font-size: 25px;
-
-}
-
-#event-gaming
-{
-	text-align: center;
-	padding: 35px 15px;
-	border: 1px solid #28ae7f;
-	background-color: white;
-	color: #28ae7f;
-	font-family: 'Open sans', sans-serif;
-	transition: all 0.5s;
-	cursor: pointer;
-	display: inline-block;
-	width:25%;
-	margin: 15px;
-	font-size: 25px;
-
-}
-
-#event-name
-{
-	text-align: center;
-	padding: 35px 15px;
-	border: 1px solid #28ae7f;
-	background-color: white;
-	color: #28ae7f;
-	font-family: 'Open sans', sans-serif;
-	transition: all 0.5s;
-	cursor: pointer;
-	display: inline-block;
-	width:25%;
-	margin: 15px;
-	font-size: 25px;
-
-}
-
-
-#event-name
-{
-	text-align: center;
-	padding: 35px 15px;
-	border: 1px solid #28ae7f;
-	background-color: white;
-	color: #28ae7f;
-	font-family: 'Open sans', sans-serif;
-	transition: all 0.5s;
-	cursor: pointer;
-	display: inline-block;
-	width:25%;
-	margin: 15px;
-	font-size: 25px;
-
-}
-
-#event-name
-{
-	text-align: center;
-	padding: 35px 15px;
-	border: 1px solid #28ae7f;
-	background-color: white;
-	color: #28ae7f;
-	font-family: 'Open sans', sans-serif;
-	transition: all 0.5s;
-	cursor: pointer;
-	display: inline-block;
-	width:25%;
-	margin: 15px;
-	font-size: 25px;
-
-}
-
-#event-name
-{
-	text-align: center;
-	padding: 35px 15px;
-	border: 1px solid #28ae7f;
-	background-color: white;
-	color: #28ae7f;
-	font-family: 'Open sans', sans-serif;
-	transition: all 0.5s;
-	cursor: pointer;
-	display: inline-block;
-	width:25%;
-	margin: 15px;
-	font-size: 25px;
-
-}
-
-
-
-#event-robotics:hover
-{
-	border: 1px solid #28ae7f;
-	background-color: #28ae7f;
-	color: white;
-	font-family: 'Open sans', sans-serif;
-	cursor: pointer;
-}
-
-#event-coding:hover
-{
-	border: 1px solid #28ae7f;
-	background-color: #FFCC00;
-	color: white;
-	font-family: 'Open sans', sans-serif;
-	cursor: pointer;
-}
-
-#event-photography:hover
-{
-	border: 1px solid #28ae7f;
-	background-color: #33D633;
-	color: white;
-	font-family: 'Open sans', sans-serif;
-	cursor: pointer;
-}
-
-#event-junkyard:hover
-{
-	border: 1px solid #28ae7f;
-	background-color: #9933FF;
-	color: white;
-	font-family: 'Open sans', sans-serif;
-	cursor: pointer;
-}
-
-#event-gaming:hover
-{
-	border: 1px solid #28ae7f;
-	background-color: #FF1919;
-	color: white;
-	font-family: 'Open sans', sans-serif;
-	cursor: pointer;
-}
-
-#event-name:hover
-{
-	border: 1px solid #28ae7f;
-	background-color: #28ae7f;
-	color: white;
-	font-family: 'Open sans', sans-serif;
-	cursor: pointer;
-}
-
-#event-name:hover
-{
-	border: 1px solid #28ae7f;
-	background-color: #28ae7f;
-	color: white;
-	font-family: 'Open sans', sans-serif;
-	cursor: pointer;
-}
-
-#event-name:hover
-{
-	border: 1px solid #28ae7f;
-	background-color: #28ae7f;
-	color: white;
-	font-family: 'Open sans', sans-serif;
-	cursor: pointer;
-}
-
-#event-name:hover
-{
-	border: 1px solid #28ae7f;
-	background-color: #28ae7f;
-	color: white;
-	font-family: 'Open sans', sans-serif;
-	cursor: pointer;
-}
-
-#robotics-head
-{
-	height: 135px;
-	width:100%;
-	background-color: #0D5959;
-	color: white;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 35px;
-	padding-top: 35px;
-
-}
-
-#coding-head
-{
-	height: 135px;
-	width: 100%;
-	background-color: #0D5959;
-	color: white;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 35px;
-	padding-top: 35px;
-
-}
-
-.space
-{
-	height: 200px;
-}
-
-#footer
-{
-	width: 100%;
-	background-color: #17211B;
-	height: 200px;
-	position: relative;
-}
-
-#foot-text
-{
-	top: 35%;
-	padding-left: 5%;
-	color: white;
-	font-family: 'Open Sans', serif;
-	position: absolute;
-}
-	
-
-#made
-{
-	bottom: 10%;
-	padding-left: 45%;
-	color: white;
-	font-family: 'Open Sans', serif;
-	position: absolute;	
-}
-
-
-#social-links
-{
-	top: 35%;
-	padding-left: 75%;
-	color: white;
-	font-family: 'Open Sans', serif;
-	position: absolute;
-}
-
-#pattern
-{
-	width: 100%;
-	position: absolute;
-	background: url("bcity.png");
-	background-repeat: repeat-x;
-	top: -50px;
-	height: 50px;
-}
-
-.event-content
-{
-	height:500px;
-	color: black;
-	font-family: 'Open Sans', serif;
-}
-
-
-
-</style>
 
 </head>
 
@@ -418,7 +22,6 @@ html,body
 				<img src="sankalp2.png" width="200px">
 			</div></a>
 
-			<div id="menu-icon" onclick="scrollTo('#menus')"><span class="glyphicon glyphicon-list"></span></div>
 			<a href="register.html" style="text-decoration:none"><div id="button-container">
 				REGISTER
  			</div></a>
@@ -427,34 +30,61 @@ html,body
 
 <br><br>
 
+
 <div id="event-names">
-	<div id="event-robotics" onclick="scrollTo('#robotics-head')">
-		Robotics
+	
+	<div id="event-byg" onclick="scrollTo('#byg-head')">
+		Bridge Your Gap
 	</div>
+	
 	<div id="event-coding" onclick="scrollTo('#coding-head')">
 		Coding
 	</div>
-	<div id="event-photography" onclick="scrollTo('#photography-head')">
-		Photography
+
+	<div id="event-momentika" onclick="scrollTo('#momentika-head')">
+		Momentika
 	</div>
 	
-	<br>
-
+	
 	<div id="event-junkyard" onclick="scrollTo('#junkyard-head')">
 		Junkyard
 	</div>
 
-	<div id="event-gaming" onclick="scrollTo('#gaming-head')">
-		Gaming<br><span style="font-size:12px">FIFA | NFS | CS | DOTA</span>
+	<div id="event-nfs" onclick="scrollTo('#nfs-head')">
+		NFS
 	</div>
 
-	<div id="event-name">
-		Event
+	
+	<div id="event-gullycricket" onclick="scrollTo('#gullycricket-head')">
+		Gully Cricket
 	</div>
 
-	<br>
+	<div id="event-roboxing" onclick="scrollTo('#roboxing-head')">
+		RoBoxing
+	</div>
 
-	<div id="event-name">
+	<div id="event-roboexploder" onclick="scrollTo('#roboexploder-head')">
+		Robo Exploder
+	</div>
+
+	<div id="event-roball" onclick="scrollTo('#roball-head')">
+		RoBall
+	</div>
+
+	<div id="event-dota" onclick="scrollTo('#dota-head')">
+		Dota
+	</div>
+
+	<div id="event-fifa" onclick="scrollTo('#fifa-head')">
+		FIFA
+	</div>
+
+	<div id="event-fyw" onclick="scrollTo('#fyw-head')">
+		Find Your Way
+	</div>
+
+	
+	<div id="event-name" >
 		Event
 	</div>
 
@@ -469,18 +99,41 @@ html,body
 
 
 
-<div id="robotics-head">
-	Robotics
+<div id="byg-head">
+	Bridge Your Gap
 </div><br>
 <div class="wrapper">
 	<div class="event-content">
 		Details blah blah blah,i.e. Event Description<hr><br><br>
+
+		<span style="font-size:35px">Bot Dimension</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• The dimension of autonomous bot should not exceed 20*20cms.<br>
+		• There is NO restriction for dimensions of manual bot.
+		</span><br><br><br><br><br>
+
+		<span style="font-size:35px">Arena</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• The bot need to start from the start position and reach the finish position.<br>
+		• For competition of the competition.<br>
+		• The arena consists of a black line (BLACK LINE FOLLOWER) with strip width of 2.5 cm throughout.<br>
+		• There are 3 checkpoint. 50 points will be added for reaching each check point.<br>
+		• The arena consists of 2 elevated paths which needs to be replaced by the blocks provided nearby having dimensions 20*20*20.<br>
+		• The bot is liable for disqualification for damage of the arena.
+		</span><br><br><br><br><br>
+
 		<span style="font-size:35px">Rules & Regulations</span><br><br>
 		<span style="font-size:15px;line-height:25px;">
-		1. Rules and Regulations<br>
-		2. Rules and Regulations<br>
-		3. Rules and Regulations
+		• Bot needs to start from START POINT.<br>
+		• For EVERY RESTART there is deduction of 30 points from total score.<br>
+		• The maximum time allots to finish the competition is 5 min.<br>
+		• If the bot is unable to reach to the other checkpoint restart can be done from preview checkpoint.<br>
+		• For ROUND 2 the strips provided have dimension of (6*1) cm.<br>
+		• TIME BONUS WILL BE AWARDED to the participants is Boat reaches the finish point before time limit.<br>
+		• The Dimension of blocks provided to replace the elevator reactions is 20*20*20.<br>
+		• All rules are subject to change. The decision of the event coordinators is final and binding.
 		</span><br><br><br><br><br>
+		
 		<span style="font-size:35px">Prizes</span><br><br>
 		<span style="font-size:15px;line-height:25px;">
 		First prize<br>
@@ -497,6 +150,58 @@ html,body
 </div>
 
 
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+
+
+<div id="roboxing-head">
+	RoBoxing
+</div><br>
+<div class="wrapper">
+	<div class="event-content">
+		Details blah blah blah,i.e. Event Description<hr><br><br>
+
+		<span style="font-size:35px">Bot Specifications</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• Dimension: 30 x 30 x 30 cms.<br>
+		• Weight maximum 7 kgs.<br>
+		• Maximum 24 volt dc supply from main.
+		</span><br><br><br><br><br>
+
+		<span style="font-size:35px">Rules & Regulations</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• Selection by entry basis.<br>
+		• Direct fight between two bots.<br>
+		• Winner will go next round.<br>
+		• Repetition of same process until tow bots are selected for final round.<br>
+		• Final round.<br>
+		• Destruction of arena tends to disqualification.<br>
+		• TARGET WILL BE ANNOUNCED ON THE SPOT.<br>
+		• All rules are subject to change. The decision of the event coordinators is final and binding.
+		</span><br><br><br><br><br>
+		
+		<span style="font-size:35px">Prizes</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		First prize<br>
+		Second prize<br>
+		Third Prize
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Co-odinators</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Name Surname | Head Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888
+		</span>
+	</div>
+</div>
+
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
 <div class="space"></div>
 
 <div id="coding-head">
@@ -526,11 +231,549 @@ html,body
 	</div>
 </div>
 
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+
+<div id="junkyard-head">
+	Junkyard/Nightshift
+</div><br>
+<div class="wrapper">
+	<div class="event-content">
+	George Bernard Shaw had said, “Imagination is the beginning of creation.” <br><br>To make a lifelike working model despite the scarcity of materials requires nothing other than creativity. <br><br>Sankalp brings you one of its flagship events, Nightshift, where participants create a prototype from a given set of tools in limited time. <br><br>To win the coveted prize, every participant fights hard for ten long night hours. <br><br>So make a team and get ready to feel the enthusiasm.<hr><br><br>
+		<span style="font-size:35px">Rules & Regulations</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• TEAM OF 2.<br>
+		• ELIMINATION ROUND WILL BE HELD WHERE RIDDLES WILL BE GIVEN TO SOLVE IN MINIMUM TIME.<br>
+		• TEAMS THAT QUALIFIES WILL BE GIVEN A PROBLEM STATEMENT ON SPOT WITH THE JUNKS PROVIDED FROM WHICH PARTICIPANTS WILL HAVE TO MAKE A USEFUL STUFF OF SPECIFIC WEIGHT MENTIONED IN THE PROBLEM STATEMENT.<br>
+		• THE PRODUCT MADE SHOULD BE STRICTLY ACCORDING TO THE PROBLEM STATEMENT.<br>
+		• All rules are subject to change. The decision of the event coordinators is final and binding.
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Prizes</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		First prize<br>
+		Second prize<br>
+		Third Prize
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Co-odinators</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Name Surname | Head Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888
+		</span>
+	</div>
+</div>
+
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+
+<div id="gullycricket-head">
+Gully Cricket
+</div><br>
+<div class="wrapper">
+	<div class="event-content">
+		Sankalp 2015 presents you with inter college cricket competition where you will face the challenge from the best teams in West Bengal. <hr><br><br>
+		<span style="font-size:35px">Rules & Regulations</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• Number of players per team: 8+2 (rolling sub).  <br>
+		• Teams should report half an hour prior the scheduled time. <br>
+		• Teams comprise of students from the same college. The participants must have a valid college ID. <br>
+		• The decision of the umpire will be final. <br>
+		• Rules and regulations will be informed on the day of the match.
+		• All rules are subject to change. The decision of the event coordinators is final and binding. 
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Entry Fee</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Rs. 700 per team<br><br>
+	
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Prizes</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		First prize<br>
+		Second prize<br>
+		Third Prize
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Co-odinators</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Venkatesh | Head Co-ordinator | +91 84205 66468
+		</span>
+	</div>
+</div>
+
+
+
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+
+
+<div id="nfs-head">
+	NFS Most Wanted
+</div><br>
+<div class="wrapper">
+	<div class="event-content">
+		Details blah blah blah,i.e. Event Description<hr><br><br>
+
+		<span style="font-size:35px">Event Format</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• Tournament Format : 4 Players play at a time. The first two players to complete the race will advance to the next round ( no. of players who advance to the next round is subjected  to total number of registrations for the game).<br>
+		• Game Type: Circuit/Sprint/Speed Trap/ Lap KnockOut (to be decided based on the stage of the tournament).<br>
+		• Dedicated Laptops will be provided. Players have to bring their own mouse, keyboards, headphones, and other peripherals to simulate their own best playing environment(optional).
+		</span><br><br><br><br><br>
+
+		<span style="font-size:35px">Rounds</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• Round 1- Sprint( 1st and 2nd Qualify).<br>
+		• Round 2- Long Sprint(1st and 2nd Qualify).<br>
+		• Round 3- Circuits- 2 lap(1st Qualify).<br>
+		• Round 4- Circuits- 3 lap(1st place is the winner). 
+		</span><br><br><br><br><br>
+
+		<span style="font-size:35px">Rules & Regulations</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• Game Version:- Need For Speed : Most Wanted.<br>
+		• The game has to be played only on keyboard. Any other controllers are not permitted.<br>
+		• Tournament Format : 4 Players play at a time. The first two players to complete the race will advance to the next round ( no. of players who advance to the next round is subject to total number of registrations for the game).<br>
+		• Game Type: Circuit Sprint Speed Trap Lap KnockOut (to be decided based on the stage of the tournament).<br>
+		• Winning a race:<br>
+		&nbsp Sprint/Circuit : Winner is the person who finishes the race first.<br>
+		&nbsp Speed Trap/Lap KnockOut : Winner is the person who finishes first or covers the most distance is no one finishes the race.<br>
+		• At the end of each match, players must maintain the final screens and receive confirmation from a referee.<br>
+		• All rules are subject to change. The decision of the event coordinators is final and binding.
+		</span><br><br><br><br><br>
+
+		<span style="font-size:35px">Car Settings</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• All unlocked. Players will be given a limited amount of time to customize their cars to their liking. Default will be BEST.<br>
+		• Junkman is not allowed.<br>
+		• Personal save profile is NOT allowed.
+		</span><br><br><br><br><br>
+
+		<span style="font-size:35px">Race Mode Options</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Circuits/Sprint/Speed Trap/Lap Knockout<br><br>
+		• LAPS: At the discretion of organizing committee.<br>
+		• N20: ON.<br>
+		• Units: Player’s own discretion.<br>
+		• Car Damage: Off.<br>
+		• Rearview Mirror: Player’s own discretion.
+		</span><br><br><br><br><br>
+
+		<span style="font-size:35px">Disconnections</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Any disconnection of the connection between match players due to System, Network, PC and/or Power problems/issues.<br><br>
+		• Intentional: Upon judgment by the referee, any offending player will be charged with a loss by forfeit.<br>
+		• Unintentional: If the disconnection is deemed to be unintentional by the referee, the match will be restarted. If any player does not agree to a match restart, that player will lose by default.
+		</span><br><br><br><br><br>
+
+		
+		
+		<span style="font-size:35px">Prizes</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		First prize<br>
+		Second prize<br>
+		Third Prize
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Co-odinators</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Name Surname | Head Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888
+		</span>
+	</div>
+</div>
+
+
 
 
 <div class="space"></div>
 <div class="space"></div>
 <div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+
+
+
+<div id="roboexploder-head">
+	Robo Exploder
+</div><br>
+<div class="wrapper">
+	<div class="event-content">
+		“The winner isn’t the one with the fastest bot, it’s the one who refuses to lose..."<br><br> Will it be the same with you?? Show your guts and adrenaline at sankalp!!!!<br><br>
+ It's time to place your robot in the challenging arena comprising of all possible terrains like sand, pebbles, obstacles, bumpers, bridges, marbles,  inclines, sea-saw, dips, cliffs, ramps, banks, etc.
+<hr><br><br>
+
+		<span style="font-size:35px">Bot Specifications</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• The maximum dimension of the robot can be 25 x 25 cms.<br>
+		• The bots can be powered on-board as well as off-board. <br>
+		• In case of off-board power supply the wires must be kept long enough to cover the whole track and wire should remain slack during the complete run.<br>
+		• Max weight must not exceed 5 kg. <br>
+		• The power supply will be provided maximum up to 18Volt.<br>
+		• Readymade toys car are not allowed. 
+		</span><br><br><br><br><br>
+
+		<span style="font-size:35px">Arena</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• Track width is 40 cm normally and it may change at some place. <br>
+		• The track surface and course line may have unevenness. <br>
+		• There will be a inclination, but this will not exceed 30 degrees.<br>
+		• The design and size of the obstacles in the  track which will try to slow down the bot.<br>
+		• The arena will consist of various obstacle along with sand, bumpers, water,  Depth of water etc..
+		</span><br><br><br><br><br>
+
+		<span style="font-size:35px">Rules & Regulations</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• This is a team event. The maximum number of participants allowed in a team is 4.<br>
+		• A team may consist of students from different/same colleges. <br>
+		• A participant cannot be a member of 2 different teams in this event. <br>
+		• Any action violating fair play will lead to immediate disqualification.<br>
+		• The decision of the coordinators will be final & binding.<br>
+		• It should be noted that the main chassis should remain the same throughout the event.<br>
+		• The participants will be provided with 220 volts, 50 Hz standard AC supply.	<br>
+		• There will be a maximum of 2 Restarts where the bot will be placed at the starting point and the clock will be set again, at the cost of a penalty. <br>
+		• All rules are subject to change. The decision of the event coordinators is final and binding.
+		</span><br><br><br><br><br>
+		
+		<span style="font-size:35px">Prizes</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		First prize<br>
+		Second prize<br>
+		Third Prize
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Co-odinators</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Name Surname | Head Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888
+		</span>
+	</div>
+</div>
+
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+
+
+<div id="roball-head">
+	RoBall
+</div><br>
+<div class="wrapper">
+	<div class="event-content">
+		Details
+<hr><br><br>
+
+		<span style="font-size:35px">Bot Specifications</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• Size of the bot must not exceed 25*25*25 cms.<br>
+		• Maximum weight should be 3 kgs. <br>
+		• The machine must be manually controlled.<br>
+		• 12 V max to be supplied.<br>
+		• No Lego kits or IC engines are allowed.<br>
+		• Bot should not damage the arena.
+		</span><br><br><br><br><br>
+
+		<span style="font-size:35px">Arena</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• The arena will be in the form of a rectangle having dimension 270 cms (length) and 160 cms (width).<br>
+		• Goal post will be of length 45 cms each.<br>
+		• A team should consist of 4 members.<br>
+		• Only one bot from each team is allowed in the arena.
+		</span><br><br><br><br><br>
+
+		<span style="font-size:35px">Rules & Regulations</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		PRELIMINARY Round<br><br>
+		• Some obstacles will be placed at the arena. One of the two bots of a particular team is allowed inside the arena.<br>
+		• The arena will have obstacles at different places. The bot have to avoid the obstacles and score goals.<br>
+		• A team should score maximum number of goals within a time limit of 3 minutes will qualify for the next round.<br>
+		• There will be a penalty for touching an obstacle.<br>
+		• No reset time will be provided.<br>
+		• In case of tie extra time will be provided.<br>
+		• All rules are subject to change. The decision of the event coordinators is final and binding.<br><br>
+		FINAL Round<br><br>
+		• 5 minutes will be provided to the team.<br>
+		• Highest goal scorer will win the game.<br>
+		• All rules are subject to change. The decision of the event coordinators is final and binding.
+		</span><br><br><br><br><br>
+		
+		<span style="font-size:35px">Prizes</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		First prize<br>
+		Second prize<br>
+		Third Prize
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Co-odinators</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Name Surname | Head Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888
+		</span>
+	</div>
+</div>
+
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+
+<div id="fyw-head">
+	Find Your Way
+</div><br>
+<div class="wrapper">
+	<div class="event-content">
+		Details
+<hr><br><br>
+
+		<span style="font-size:35px">Bot Specifications</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• The bot dimension should not exceed 25*20 cms.<br>
+		• Maximum of 12V power supply is permitted.
+		</span><br><br><br><br><br>
+
+		
+		<span style="font-size:35px">Rules & Regulations</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• A team should consider of maximum 4 members.<br>
+		• Any damage made to the arena will result in disqualification.<br>
+		• Any violation of the rules will result in disqualification.<br><br>
+		
+		Round 1: <br>
+		• There will be total 3 check points.<br>
+		• Lights will be glowing at the bottom the bot as to follow these lights to reach the finish line.<br>
+		• After clearing these check points you will get total 300 points, each checkpoints contain 100 points.<br>
+		• Teams clearing the first round in minimum time will qualify for the finals.<br>
+		• All rules are subject to change. The decision of the event coordinators is final and binding.<br><br>
+		Round 2: <br>
+		• <br>
+		• <br>
+		• <br>
+		• All rules are subject to change. The decision of the event coordinators is final and binding.
+		</span><br><br><br><br><br>
+		
+		<span style="font-size:35px">Prizes</span><br><br>		<span style="font-size:15px;line-height:25px;">
+		First prize<br>
+		Second prize<br>
+		Third Prize
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Co-odinators</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Name Surname | Head Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888
+		</span>
+	</div>
+</div>
+
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+
+
+<div id="dota-head">
+	Dota
+</div><br>
+<div class="wrapper">
+	<div class="event-content">
+		Details
+<hr><br><br>
+
+		<span style="font-size:35px">Rules & Regulations</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• Each team consist of 5 members.<br>
+		• The map will be chosen at the beginning of the tournament.<br>
+		• Sentinels and Scourge side will be chosen by a toss.<br>
+		• AP (All pick) command will be used for hero selection.<br>
+		• Roll command will be used for numbering people according to which players will get to choose their heroes.<br>
+		• The first team to destroy the opposing team’s ancient (main building) wins, or all players on a team intentionally disconnects.<br>
+		• Teams may not remake after the 1st creep wave has spawned or after 1st blood has been spilled.<br>
+		• If the teams are late for the match for about 15 mins the opponent team will be declared victorious.<br>
+		• No cheats are supposed to be used during the tournament. If such a case arises the team will be disqualified.<br>
+		• All rules are subject to change. The decision of the event coordinators is final and binding.
+		</span><br><br><br><br><br>
+		
+		<span style="font-size:35px">Prizes</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		First prize<br>
+		Second prize<br>
+		Third Prize
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Co-odinators</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Name Surname | Head Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888
+		</span>
+	</div>
+</div>
+
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+
+
+<div id="fifa-head">
+	FIFA 11
+</div><br>
+<div class="wrapper">
+	<div class="event-content">
+		Details blah blah blah,i.e. Event Description<hr><br><br>
+
+		<span style="font-size:35px">Rules & Regulations</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• All games will be conducted in Fifa 11.<br>
+ 		• A standard keyboard will be supplied to each participant. The participants are allowed to use their own keyboards/controllers if they wish to. <br>
+		• Every participant must select their teams at the beginning of the tournament and stick to their team selection. <br>
+		• If the connection disconnects at X minutes, then the match will be restarted and played for (90-X) minutes. Previous scores will be taken into account.<br> 
+		• A Red Card or two consecutive Yellow Cards will result in the suspension of the player in the next match. <br>
+		• A yellow card for a player will be carried forward in the next match.	<br>
+		• Players are permitted	a total	of	3 player and strategy changes during a match. (The changes before the start of first and second	half are not included in this count.) <br>
+		• The teams’ and players’ abilities	cannot be modified arbitrarily. <br>
+		• Arriving late for	a scheduled	match may result in	a forfeit at the discretion of the admin or the coordinator in charge. <br>
+		• The admin	and	coordinators reserve the right to install additional software/updates and/or join as an	observer for tournament	operations purposes, such	as verifying match results or gathering	match data.<br>
+		• All rules are subject to change. The decision of the event coordinators is final and binding.
+		</span><br><br><br><br><br>
+
+		<span style="font-size:35px">Format</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Knockout Stage: <br><br>
+		• 1	vs. 1 match. <br>
+		• Fixtures will be decided via random selection	by the admins. <br>
+		• Player scoring maximum goals after 90	minutes	wins the match.	<br>
+		• If, after	90 minutes, the	game ends in a draw, two extra time	periods	of 15 minutes each shall be	played.	If the score remains tied after	extra time,	penalty	kicks will decide the winner. <br>
+		• Team	selection: National	and	Club teams may be selected by the players. The players are allowed to choose the same team. <br>
+		• The host and client for each match will be decided by	a coin toss conducted by the admin or coordinators.
+		</span><br><br><br><br><br>
+
+		<span style="font-size:35px">Game Settings</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Knockout Stage: <br><br>
+		• Half Length        : 4 minutes <br>
+		• Difficulty         : Professional <br>
+		• Game Speed         : Normal <br>
+		• Injuries	         : Off <br>
+		• Offside            : On <br>
+		• Bookings           : On <br>
+		• Subs on Bench      : 7 <br>
+		• Custom Formation   : Not	allowed <br>
+		• Custom Tactics     : Not Allowed <br>
+		• Time/Score Display : On
+		</span><br><br><br><br><br>
+
+		<span style="font-size:35px">Forbidden Moves</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• It is	forbidden to make a	throw-in directly into the opponent’s penalty area. <br>
+		• Any goals	resulting from a throw-in into the opponent’s penalty area will not be counted. <br>
+		• It is	not	allowed	to score a goal from one’s own half	of the field. <br>
+		• If a player is found to be intentionally delaying the	game time by passing the ball around in	his	half, he will be warned. Should	he persist,	he shall be	disqualified from the tournament.
+		</span><br><br><br><br><br>
+
+		
+		
+		<span style="font-size:35px">Prizes</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		First prize<br>
+		Second prize<br>
+		Third Prize
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Co-odinators</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Name Surname | Head Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888
+		</span>
+	</div>
+</div>
+
+
+
+
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+
+
+
+<div id="momentika-head">
+	Momentika
+</div><br>
+<div class="wrapper">
+	<div class="event-content">
+		<span style="line-height:25px;">
+		Sankalp '15 brings you MOMENTIKA...The search for the best moment,framed and shot.<br><br>
+		Is camera your eye?<br>
+		Does your picture tell 1000 words?<br>
+		Have the thirst to frame & shoot the precious moments? <br><br>
+		If the answers to above are YES...then MOMENTIKA is the just the platform for you.<br>
+		Participate in this exciting photo contest,compete head on with other photographers and who knows you might become the winner. 
+		</span>
+		<hr><br><br>
+		<span style="font-size:35px">Rules & Regulations</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		• The event is a free and is OPEN TO ALL.<br>
+		• The theme for Momentika is: "EXPRESSIONS"<br>
+		• Send only ONE photograph in '.jpg' format to "momentika.sankalp2015@gmail.com". <br>
+   		• Photograph should be a minimum of 1MB and should not exceed 5MB in size. <br>
+   		• Photo should be submitted with the following and the file names should be renamed in the format "Name_Caption_Phone Number":<br>
+        &nbsp&nbsp&nbsp Name:<br>
+	    &nbsp&nbsp&nbsp Caption:<br>
+	    &nbsp&nbsp&nbsp Institute:<br>
+	    &nbsp&nbsp&nbsp Stream & Year:<br>
+	    &nbsp&nbsp&nbsp Contact Number:<br>
+	    &nbsp&nbsp&nbsp Email ID:<br>
+	    &nbsp&nbsp&nbsp Camera:<br>
+	    • Photo sent for the contest should be original. Any sort plagiarism will not be encouraged. Copyright of the image should belong to the participant. <br>
+	    • Minimal editing is allowed in the photo. Editing is restricted to cropping,color correction,change in brightness and contrast only. Morphed pictures,HDR & panaroma pictures are not allowed. <br>
+	    • The last date for online submission of entries is: March 23,2015 till 11:59 PM <br>
+	    • Photos found inappropiate/out of theme/extremely low quality/nude/hurts human & religious sentiments/copyright infringed/morphed will be disqualified. <br>
+	    • Decision of the judges and the organizers will be final.
+        • All rules are subject to change. The decision of the event coordinators is final and binding.
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Prizes</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		First prize<br>
+		Second prize<br>
+		Third Prize
+		</span><br><br><br><br><br>
+		<span style="font-size:35px">Co-odinators</span><br><br>
+		<span style="font-size:15px;line-height:25px;">
+		Arijit Patra | Head Co-ordinator | +91 94775 89925<br>
+		Name Surname | Co-ordinator | +91 99999 88888<br>
+		Name Surname | Co-ordinator | +91 99999 88888
+		</span>
+	</div>
+</div>
+
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+
 
 
 <div id="footer">

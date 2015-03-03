@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<style>
+
+.box
+{
+	width: 500px;
+	height: 50px;
+	-webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px;
+	-moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px;
+	border-radius: 0px 10px 4px 0px/10px 5px 4px 4px;
+	background-color: #fff;
+	-webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+	-moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+	box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+	border: solid 1px #cbc9c9;
+	margin-left: -5px;
+	margin-top: 13px;
+	padding-left: 10px;
+}
+
+
+.box2
+{
+	padding: 0.355em 0.9em;
+	font-size: 1.1em;
+	font-weight: 300;
+	border: none;
+	-moz-box-shadow: 0px 0px 3px 0px #ccc;
+	-webkit-box-shadow: 0px 0px 3px 0px #ccc;
+	box-shadow: 0px 0px 3px 0px #ccc;
+	margin-left:33%;
+	
+	border-radius:0px 10px 10px 0px;
+	height: 50px;
+
+
+}
+
+
+.wrapper
+{
+	padding: 16px;
+	position: relative;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+
+
+#user-icon
+{
+	color: white;
+	position: relative;
+	
+	font-size: 18px;
+	border: 1px solid #034463;
+	background-color: #034463;
+	padding: 15px;
+	border-radius: 5px 0px 0px 5px;
+}
+
+#contact-icon
+{
+	color: white;
+	position: relative;
+	font-size: 18px;
+	
+	border: 1px solid #034463;
+	background-color: #034463;
+	padding: 15px;
+	border-radius: 5px 0px 0px 5px;	
+}
+
+#college-icon
+{
+	color: white;
+	position: relative;
+	
+	font-size: 18px;
+	border: 1px solid #034463;
+	background-color: #034463;
+	padding: 15px;
+	border-radius: 5px 0px 0px 5px;	
+
+}
+
+#mail-icon
+{
+	color: white;
+	position: relative;
+	
+	font-size: 18px;
+	border: 1px solid #034463;
+	background-color: #034463;
+	padding: 15px;
+	border-radius: 5px 0px 0px 5px;	
+}
+
+#hometown-icon
+{
+	color: white;
+	position: relative;
+	
+	font-size: 18px;
+	border: 1px solid #034463;
+	background-color: #034463;
+	padding: 15px;
+	border-radius: 5px 0px 0px 5px;		
+}
+
+
+
+.space
+{
+	height: 200px;
+}
+
+#footer
+{
+	width: 100%;
+	background-color: #17211B;
+	height: 200px;
+	position: relative;
+}
+
+#foot-text
+{
+	top: 35%;
+	padding-left: 5%;
+	color: white;
+	font-family: 'Open Sans', serif;
+	position: absolute;
+}
+	
+
+#made
+{
+	bottom: 10%;
+	padding-left: 45%;
+	color: white;
+	font-family: 'Open Sans', serif;
+	position: absolute;	
+}
+
+
+#social-links
+{
+	top: 35%;
+	padding-left: 75%;
+	color: white;
+	font-family: 'Open Sans', serif;
+	position: absolute;
+}
+
+#pattern
+{
+	width: 100%;
+	position: absolute;
+	background: url("bcity.png");
+	background-repeat: repeat-x;
+	top: -50px;
+	height: 50px;
+}
+
+#col1
+{
+	width: 150px;
+	display: inline-block;
+	margin-left: 120px;
+}
+
+
+#col2
+{
+	width: 150px;
+	display: inline-block;
+
+}
+
+#col3
+{
+	width: 150px;
+	display: inline-block;
+	
+}
+
+
+#register-button
+{
+	border:1px solid #28ae7f;
+	background-color: white;
+	color: #28ae7f;
+	font-size: 20px;
+	padding: 25px 50px;
+	font-family: 'Open Sans', serif;
+	margin-left: 212px;
+	cursor: pointer;
+}
+
+#input-areas
+{
+	width:35%;
+	border: 1px solid #048d3b;
+	color:#191919;
+	border-right:5px solid #FF0000;
+	font-family: segoe ui light, 'Open Sans', sans-serif;
+	left: -445px;
+	top: -2px;
+	position: relative;
+	outline: none;
+}
+
+
+</style>
+</head>
+
+<title>Sankalp 2015 | Registration</title>
+
+</head>
+
+<body>
+
+
+<br><br>				
+					<form method="post" action="regi.php">
+					<p><span style="font-family: 'Open Sans', serif;font-size:20px;color:black"> Hi! Please provide your details: </span></p>
+
+					<p id="pname"><span class="glyphicon glyphicon-user" id="user-icon"></span><input type="text" id="input-areas" name="nme" class="box2" required="TRUE" placeholder="Name" autofocus></p>
+								
+				
+					<p id="pcollege"><span class="glyphicon glyphicon-pencil" id="college-icon"></span><input type="text" id="input-areas" name="clg" class="box2" required="TRUE" placeholder="College/School"></p>
+
+
+					<p id="pcontact"><span class="glyphicon glyphicon-phone" id="contact-icon"></span><input type="digit" id="input-areas" name="cnt" class="box2" required="TRUE" placeholder="Mobile"></p>				
+			
+
+					<p id="pemail"><span class="glyphicon glyphicon-envelope" id="mail-icon"></span><input type="email" id="input-areas" name="eml" class="box2" required="TRUE" placeholder="E-mail"></p>
+
+					<p id="pemail"><span class="glyphicon glyphicon-map-marker" id="hometown-icon"></span><input type="text" id="input-areas" name="htw" class="box2" required="TRUE" placeholder="Hometown"></p>
+
+					
+
+					<br><br><br>
+
+
+					<p><span style="font-family: 'Open Sans', serif;font-size:20px;color:black"> Choose Events: </span></p>
+
+					<div id="col1">
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Robotics </span></p>
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Coding </span></p>
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Photography </span></p>
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Junkyard </span></p>
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Quiz </span></p>
+					</div>
+
+					<div id="col2">
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Robotics </span></p>
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Coding </span></p>
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Photography </span></p>
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Junkyard </span></p>
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Quiz </span></p>
+					</div>
+
+					<div id="col3">
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Robotics </span></p>
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Coding </span></p>
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Photography </span></p>
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Junkyard </span></p>
+					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Quiz </span></p>
+					</div>
+
+
+					<br><br><br>
+					
+
+					<div id="register-button" type="submit">REGISTER</div>
+
+					<div class="space"></div>
+
+
+					</form>
+		</p>
+		
+	
+
+
+
+</body>
+</html>
