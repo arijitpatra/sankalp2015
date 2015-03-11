@@ -270,7 +270,7 @@
 			
 				<br>
 			<p style="margin-top: -30px;">
-				<span class="glyphicon glyphicon-earphone" ></span>&nbsp<span style="font-size:12px;">+91 98765 12345</span><br><br>
+				<span class="glyphicon glyphicon-earphone" ></span>&nbsp<span style="font-size:12px;">+91 98363 62471</span><br><br>
 				<span class="glyphicon glyphicon-envelope"></span>&nbsp<a style="font-size:12px;text-decoration:none;color:white" href="mailto:info@snklp.in?Subject=Web%20Enquiry">info@snklp.in</a><br>
 			</p>
 		</div>
