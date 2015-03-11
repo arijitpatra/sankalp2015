@@ -4,12 +4,32 @@
 	<link href='css/events.css' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<style type="text/css">
+	#response
+	{
+		height: 400px;
+		text-align: center;
+		font-family: 'Open-Sans',Segoe UI light,serif;
+		text-align: center;
+		font-size: 25px;
+	}
+	#gallery-container {
+		padding: 10px 10px;
+		border: 1px solid #28ae7f;
+		color: #28ae7f;
+		font-family: 'segoe ui light', 'Open sans', sans-serif;
+		transition: all 0.5s;
+		cursor: pointer;
+		width: 125px;
+		border-radius: 10px 10px 10px 10px;
+		font-size: 20px;
+		display: inline-block;
+}
+	</style>
 
 	</head>
 
 <title>Sankalp 2015 | Registration</title>
-
-</head>
 
 <body>
 
@@ -26,14 +46,14 @@
 		</div>	
 </div>
 
-<br><br>
-
-
-	<?php
+<br><br><br><br><br><br><br><br>
+<?php
 $servername = "localhost";
 $username = "root";
 //$password = "password";
 $dbname = "sankalp15";
+
+
 
 
 $conn = mysqli_connect($servername, $username, "", $dbname);
@@ -42,15 +62,59 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "INSERT INTO reg (Name, Institute, Mobile, Email, Hometown ) VALUES ('$_POST[nme]','$_POST[clg]','$_POST[cnt]','$_POST[eml]','$_POST[htw]')";
+$name=mysqli_real_escape_string($conn, $_POST['nme']);
+$institute=mysqli_real_escape_string($conn, $_POST['clg']);
+$mobile=mysqli_real_escape_string($conn, $_POST['cnt']);
+$email=mysqli_real_escape_string($conn, $_POST['eml']);
+$hometown=mysqli_real_escape_string($conn, $_POST['htw']);
+
+
+$flag=FALSE;
+$msg=NULL;
+
+if(!preg_match("/^[A-Za-z. ]*$/",$name))
+{
+	$flag=FALSE;
+	$msg="We didn't find your name valid! Try Again.";
+}
+else if(!preg_match("/^[A-Za-z. ]*$/",$institute))
+{
+	$flag=FALSE;
+	$msg="We didn't find your institute valid! Try Again.";
+}
+else if(!preg_match("/^0?\d{10}$/",$mobile))
+{
+	$flag=FALSE;
+	$msg="We didn't find your mobile number valid! Try Again.";
+}
+else if(!filter_var($email,FILTER_VALIDATE_EMAIL))
+{
+	$flag=FALSE;
+	$msg="We didn't find your email valid! Try Again.";
+}
+else if(!preg_match("/^[A-Za-z. ]*$/",$hometown))
+{
+	$flag=FALSE;
+	$msg="We didn't find your hometown valid! Try Again.";
+}
+else
+{
+	$flag=TRUE;
+}
+
+
+if($flag)
+{
+	$sql = "INSERT INTO reg (Name, Institute, Mobile, Email, Hometown ) VALUES ('$name','$institute','$mobile','$email','$hometown')";
+}
 
 
 
-if (mysqli_query($conn, $sql)) {
-    echo "Thank You for registering! See you at Sankalp 2015."; 
+if ($flag && mysqli_query($conn, $sql)) {
+    echo '<div id="response">Thank You for registering! Your ID SNKLP00'. mysqli_insert_id($conn). '. See you at Sankalp 2015.<br><br><br>Got some time?<br>Visit the Sankalp <a id="gallery-container" href="gallery.html" style="text-decoration:none;">Gallery</a></div>'; 
 } 
 else {
-    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+     echo '<div id="response">'.$msg.'<br><br><br>Got some time?<br>Visit the Sankalp <a id="gallery-container" href="gallery.html" style="text-decoration:none;">Gallery</a></div>'; 
 }
 
 
@@ -85,4 +149,3 @@ mysqli_close($conn);
 
 </body>
 </html>
-

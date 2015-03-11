@@ -5,6 +5,8 @@ html,body
 	height: 100%;
 	width: 100%;
 	min-height: 100%;
+	min-width: 1100px;
+	
 }
 
 #nav-bar
@@ -76,8 +78,7 @@ html,body
 	transition: all 0.5s;
 	cursor: pointer;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
+	width: 300px;
 	margin: 15px;
 	font-size: 25px;
 
@@ -94,8 +95,7 @@ html,body
 	transition: all 0.5s;
 	cursor: pointer;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
+	width: 300px;
 	margin: 15px;
 	font-size: 25px;
 
@@ -112,8 +112,7 @@ html,body
 	transition: all 0.5s;
 	cursor: pointer;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
+	width: 300px;
 	margin: 15px;
 	font-size: 25px;
 
@@ -131,8 +130,7 @@ html,body
 	transition: all 0.5s;
 	cursor: pointer;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
+	width: 300px;
 	margin: 15px;
 	font-size: 25px;
 
@@ -149,8 +147,7 @@ html,body
 	transition: all 0.5s;
 	cursor: pointer;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
+	width: 300px;
 	margin: 15px;
 	font-size: 25px;
 
@@ -168,8 +165,7 @@ html,body
 	transition: all 0.5s;
 	cursor: pointer;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
+	width: 300px;
 	margin: 15px;
 	font-size: 25px;
 
@@ -187,8 +183,7 @@ html,body
 	transition: all 0.5s;
 	cursor: pointer;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
+	width: 300px;
 	margin: 15px;
 	font-size: 25px;
 
@@ -205,8 +200,7 @@ html,body
 	transition: all 0.5s;
 	cursor: pointer;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
+	width: 300px;
 	margin: 15px;
 	font-size: 25px;
 
@@ -223,8 +217,7 @@ html,body
 	transition: all 0.5s;
 	cursor: pointer;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
+	width: 300px;
 	margin: 15px;
 	font-size: 25px;
 
@@ -241,8 +234,7 @@ html,body
 	transition: all 0.5s;
 	cursor: pointer;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
+	width: 300px;
 	margin: 15px;
 	font-size: 25px;
 
@@ -259,8 +251,7 @@ html,body
 	transition: all 0.5s;
 	cursor: pointer;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
+	width: 300px;
 	margin: 15px;
 	font-size: 25px;
 
@@ -277,8 +268,7 @@ html,body
 	transition: all 0.5s;
 	cursor: pointer;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
+	width: 300px;
 	margin: 15px;
 	font-size: 25px;
 

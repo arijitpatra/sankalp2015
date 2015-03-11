@@ -112,31 +112,19 @@
 }
 
 
-#col2
-{
-	width: 150px;
-	display: inline-block;
-
-}
-
-#col3
-{
-	width: 150px;
-	display: inline-block;
-	
-}
-
-
 #register-button
 {
-	border:1px solid #28ae7f;
+	border:2px solid #28ae7f;
 	background-color: white;
 	color: #28ae7f;
 	font-size: 20px;
 	padding: 25px 50px;
 	font-family: 'Open Sans', serif;
-	margin-left: 212px;
+	margin-left: 0px;
 	cursor: pointer;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
 }
 
 .input-areas
@@ -148,15 +136,20 @@
 	outline: none;
 }
 
-.input-icn
-{
-	color: white;
-	border: 1px solid #034463;
-	background-color: #034463;
-	opacity: 1; 
-	
+.input-icn button{
+	opacity: 1 !important;
+	background-color: #034463 !important;
+	color: white !important;
+	border: 1px solid #034463 !important;
+}
+#reg-form{
+	width: 800px;
+	margin: 0 auto;
 }
 
+.input-group{
+	margin-top: 10px;
+}
 
 </style>
 </head>
@@ -168,7 +161,7 @@
 <body>
 
 
-        			<div id="nav-bar">
+        <div id="nav-bar">
 		<div class="wrapper">
 			<a href="landing.html" style="text-decoration:none"><div id="logo-container">
 				<img src="sankalp2.png" width="200px">
@@ -181,10 +174,12 @@
 </div>
 
 <br><br>
-					<p><span style="font-family: 'Open Sans', serif;font-size:20px;color:black"> Hi! Please provide your details: </span></p>
+					<br>
+					<p style="font-family: 'Open Sans', serif;font-size:20px;color:black; text-align: center;"> Hi! Please provide your details:</p>
 
 					<p>
-					<form method="post" action="regi.php" style="width:600px;margin-left: 0 auto;text-align:center">
+						<br><br>
+					<form id="reg-form" method="post" action="regi.php">
 
 					<div class="input-group input-group-lg">
       					<span class="input-group-btn input-icn">
@@ -223,44 +218,45 @@
 
 					<br><br><br>
 
+					</p>
 
 					<p><span style="font-family: 'Open Sans', serif;font-size:20px;color:black"> Choose Events: </span></p>
-
-					<div id="col1">
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Robotics </span></p>
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Coding </span></p>
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Photography </span></p>
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Junkyard </span></p>
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Quiz </span></p>
-					</div>
-
-					<div id="col2">
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Robotics </span></p>
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Coding </span></p>
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Photography </span></p>
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Junkyard </span></p>
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Quiz </span></p>
-					</div>
-
-					<div id="col3">
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Robotics </span></p>
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Coding </span></p>
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Photography </span></p>
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Junkyard </span></p>
-					<p id="pemail"><input type="checkbox" name="rob" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Quiz </span></p>
-					</div>
-
-
-					<br><br><br>
 					
+					<div class="row">
+						<div class="col-sm-4">
+							<p><input type="checkbox" name="byg" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Bridge Your Gap </span></p>
+							<p><input type="checkbox" name="roe" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Robo Exploder </span></p>
+							<p><input type="checkbox" name="rbx" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> RoBoxing </span></p>
+							<p><input type="checkbox" name="fyw" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Find Your Way </span></p>
+							<p><input type="checkbox" name="rbl" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> RoBall </span></p>
+						</div>
 
-					<div id="register-button" type="submit">REGISTER</div>
+						<div class="col-sm-4">
+							<p><input type="checkbox" name="mtk" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Momentika </span></p>
+							<p><input type="checkbox" name="nfs" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> NFS </span></p>
+							<p><input type="checkbox" name="ffa" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> FIFA </span></p>
+							<p><input type="checkbox" name="dta" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Dota </span></p>
+							<p><input type="checkbox" name="cts" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> CS </span></p>
+						</div>
+						<div class="col-sm-4">
+							<p><input type="checkbox" name="agk" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Algo Geeks </span></p>
+							<p><input type="checkbox" name="gck" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Gully Cricket </span></p>
+							<p><input type="checkbox" name="fbl" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Football </span></p>
+							<p><input type="checkbox" name="jyd" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Junkyard </span></p>
+							<p><input type="checkbox" name="quz" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Quiz </span></p>
+						</div>
+					</div>
+					
+					<br><br><br>
+
+					<button id="register-button" type="submit">REGISTER</button>
+
 
 					<div class="space"></div>
 
 
 					</form>
-		</p>
+
 		
 	
  <div id="footer">
@@ -286,6 +282,6 @@
 	
 	</div>
 
-
+	
 </body>
 </html>
