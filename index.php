@@ -22,7 +22,7 @@
 		{
 			height: 100%;
 			width: 100%;
-			min-width: 1100px;
+			min-width: 1000px;
 			min-height: 100%;
 
 		}
@@ -258,9 +258,9 @@
 			padding: 16px;
 			position: relative;
 			margin: 0 auto;
-			max-width: 1100px;
-			min-width: 1100px;
-			width: 1100px;
+			max-width: 1000px;
+			min-width: 1000px;
+			width: 1000px;
 		}
 
 
@@ -289,7 +289,7 @@
 			margin-bottom: 50px;
 			display: inline-block;
 			cursor: pointer;
-			width: 150px;
+			width: 135px;
 			text-align: center;
 		}
 
@@ -765,7 +765,7 @@
 			</div>
 		</div>
 
-		<div class="fb-like-box" data-href="https://www.facebook.com/sankalp.nitmas" data-width="1100" data-height="286" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+		<div style="text-align:center"><div class="fb-like-box" data-href="https://www.facebook.com/sankalp.nitmas" data-width="1100" data-height="286" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div></div>
 
 		<div class="space"></div>
 

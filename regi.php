@@ -69,6 +69,7 @@ $email=mysqli_real_escape_string($conn, $_POST['eml']);
 $hometown=mysqli_real_escape_string($conn, $_POST['htw']);
 
 
+
 $flag=FALSE;
 $msg=NULL;
 
@@ -77,7 +78,7 @@ if(!preg_match("/^[A-Za-z. ]*$/",$name))
 	$flag=FALSE;
 	$msg="We didn't find your name valid! Try Again.";
 }
-else if(!preg_match("/^[A-Za-z. ]*$/",$institute))
+else if(!preg_match("/^[A-Za-z.& ]*$/",$institute))
 {
 	$flag=FALSE;
 	$msg="We didn't find your institute valid! Try Again.";
