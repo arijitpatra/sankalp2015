@@ -12,6 +12,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 	
 	<style type="text/css">
 
@@ -328,7 +329,7 @@
 		{
 			position: absolute;
 			width: 500px;
-			top: 95px;
+			top: 125px;
 			left: 31%;
 			text-align: center;
 
@@ -386,8 +387,8 @@
 		.member-pic
 		{
 			border-radius: 50%;
-			width: 135px;
-			height: 135px;
+			width: 150px;
+			height: 150px;
 			border: 2px solid #25383C;
 			box-shadow: 0px 0px 5px 0px #000;
 			transition: all 0.5s;
@@ -505,7 +506,7 @@
 
 </head>
 
-<title>Sankalp 2015</title>
+<title>Sankalp 2015 | The annual techno-management fest of NITMAS</title>
 
 <body>
 
@@ -518,6 +519,23 @@
 		fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 
+
+	<span style="display:none">
+		<div itemscope itemtype="http://schema.org/EducationEvent">
+			<a itemprop="url" href="http://snklp.in"><div itemprop="name"><strong>Sankalp</strong></div>
+			</a>
+			<div itemprop="description">Welcome to the extravaganza of Sankalp 2014, the annual techno-management fest of Neotia Institute of Technology Management and Science.                         NITMAS is a part of Bengal Ambuja group. The students of NITMAS thus take the oath ‘SANKALP’ to connect all students of different colleges to fight technically with each other.</div>
+			<div><meta itemprop="startDate" content="2015-03-28T09:00">Starts: 03/28/2015 09:00AM</div>
+			<meta itemprop="endDate" content="2015-03-29:00.000">Ends: 2015-03-29:00.000
+			<meta itemprop="duration" content="0000-00-00T08:00">Duration: 08:00
+		</div>
+		<div itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
+			<div itemprop="streetAddress">NITMAS Campus, Jhinga, Diamond Harbour Road, South 24 Parganas</div>
+			<div>P.O. Box: <span itemprop="postOfficeBoxNumber">Amira</div>
+			<div><span itemprop="addressLocality">Kolkata</span>, <span itemprop="addressRegion">West Bengal</span></div><div itemprop="postalCode">743368</div>
+			<div itemprop="addressCountry">India</div>
+		</div>
+	</span>
 
 
 	<div id="slide-container">
@@ -602,7 +620,7 @@
 
 		<div id="nitmas-container"><img src="nitmas.png" height="85px"></div>
 
-		<div id="date"><span style="font-family:'segoe ui light', 'Open sans', sans-serif;font-size:35px;color:#AB9">march</span><br><span style="font-family:'segoe ui light', 'Open sans', sans-serif;font-size:75px;color:#AB9">28 29 30</span><br><span style="font-family:'segoe ui light', 'Open sans', sans-serif;font-size:25px;color:#AB9">2015</span></div>
+		<div id="date"><span style="font-family:'segoe ui light', 'Open sans', sans-serif;font-size:35px;color:#AB9">march</span><br><span style="font-family:'segoe ui light', 'Open sans', sans-serif;font-size:75px;color:#AB9">28<span style="font-family:'segoe ui light', 'Open sans', sans-serif;font-size:30px;color:#AB9">th</span> <span style="font-family:'Bitter',serif;font-size:30px;color:#AB9">&</span> 29<span style="font-family:'segoe ui light', 'Open sans', sans-serif;font-size:30px;color:#AB9">th</span></span><br><span style="font-family:'segoe ui light', 'Open sans', sans-serif;font-size:25px;color:#AB9">2015</span></div>
 
 	</div>
 
@@ -762,7 +780,7 @@
 			
 			<br>
 			<p style="margin-top: -30px;">
-				<span class="glyphicon glyphicon-earphone" ></span>&nbsp<span style="font-size:12px;">9836362471 / 9748798145</span><br><br>
+				<span class="glyphicon glyphicon-earphone" ></span>&nbsp<span style="font-size:12px;"><a href="tel:+919836362471" style="text-decoration:none;color:white">9836362471</a> / <a href="tel:+919748798145" style="text-decoration:none;color:white">9748798145</a></span><br><br>
 				<span class="glyphicon glyphicon-envelope"></span>&nbsp<a style="font-size:12px;text-decoration:none;color:white" href="mailto:info@snklp.in?Subject=Web%20Enquiry">info@snklp.in</a><br>
 			</p>
 		</div>
