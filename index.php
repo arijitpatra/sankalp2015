@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="shortcut icon" href="logo.png">
+	<link rel="shortcut icon" href="logotitle.png">
 	<!-- <link rel="stylesheet" href="css/landing.css"> -->
 	
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> 
@@ -508,7 +508,7 @@
 
 <title>Sankalp 2015 | The annual techno-management fest of NITMAS</title>
 
-<body>
+<body onkeydown="moveDown('#countdown')">
 
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
@@ -551,7 +551,7 @@
 			</div>
 
 			<div id="menu-icon" onclick="scrollTo('#menus')"><span class="glyphicon glyphicon-list"></span></div>
-			<a href="#" style="text-decoration:none" onclick="alert('Registrations to be opened soon')"><div id="button-container">
+			<a href="#" style="text-decoration:none" onclick="alert('Registrations to be opened soon.')"><div id="button-container">
 				REGISTER
 			</div></a>
 			
@@ -756,6 +756,31 @@
 						<div class="member-info"><p><h3>Raunak Shastri</h3>ECE,3rd Yr</p></div>
 					</div>
 
+					<div class="member">
+						<img class="member-pic" src="ankita.jpg">
+						<div class="member-info"><p><h3>Ankita Gupta</h3>CSE,3rd Yr</p></div>
+					</div>
+
+					<div class="member">
+						<img class="member-pic" src="puja.jpg">
+						<div class="member-info"><p><h3>Puja Kumari</h3>IT,3rd Yr</p></div>
+					</div>
+
+					<div class="member">
+						<img class="member-pic" src="priya.jpg">
+						<div class="member-info"><p><h3>Priya Singh</h3>CSE,3rd Yr</p></div>
+					</div>
+
+					<div class="member">
+						<img class="member-pic" src="neha.jpg">
+						<div class="member-info"><p><h3>Neha Kumari</h3>CSE,3rd Yr</p></div>
+					</div>
+
+					<div class="member">
+						<img class="member-pic" src="sonu.jpg">
+						<div class="member-info"><p><h3>Sonu Priya Singh</h3>ECE,3rd Yr</p></div>
+					</div>
+
 				</p>
 				<!--end 3rd yr-->
 
@@ -806,7 +831,7 @@
 		{
 			$('html,body').animate({
 				scrollTop: parseInt($(target).offset().top) - 85
-			})
+			});
 		}
 	</script>
 
@@ -890,8 +915,22 @@
 			}	
 		},100);
 
-	</script>
 
+
+		var booleanValue = true;
+
+		function moveDown(target) {
+				if(booleanValue == true)
+				{
+			    	$('html,body').animate({
+					scrollTop: parseInt($(target).offset().top) - 85
+					});
+					booleanValue = false;
+				}
+				
+			}
+
+	</script>
 
 
 	<script>
