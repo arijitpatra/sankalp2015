@@ -223,28 +223,32 @@
 					<p><span style="font-family: 'Open Sans', serif;font-size:20px;color:black"> Choose Events: </span></p>
 					
 					<div class="row">
+
 						<div class="col-sm-4">
-							<p><input type="checkbox" name="byg" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Bridge Your Gap </span></p>
-							<p><input type="checkbox" name="roe" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Robo Exploder </span></p>
-							<p><input type="checkbox" name="rbx" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> RoBoxing </span></p>
-							<p><input type="checkbox" name="fyw" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black">  </span></p>
-							<p><input type="checkbox" name="rbl" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> RoBall </span></p>
+							<p><input type="checkbox" name="byg" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Bridge Your Gap </span></p>
+							<p><input type="checkbox" name="roe" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Robo Exploder </span></p>
+							<p><input type="checkbox" name="rbx" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> RoBoxing </span></p>
+							<!--<p><input type="checkbox" name="fyw" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black">  </span></p>-->
+							<p><input type="checkbox" name="rbl" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> RoBall </span></p>
 						</div>
 
 						<div class="col-sm-4">
-							<p><input type="checkbox" name="mtk" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Momentika </span></p>
-							<p><input type="checkbox" name="nfs" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> NFS </span></p>
-							<p><input type="checkbox" name="ffa" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> FIFA </span></p>
-							<p><input type="checkbox" name="dta" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black">  </span></p>
-							<p><input type="checkbox" name="cts" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> CS </span></p>
+							<p><input type="checkbox" name="agk" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Algo Geeks </span></p>
+							<p><input type="checkbox" name="mtk" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Momentika </span></p>
+							<!--<p><input type="checkbox" name="gck" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black">  </span></p>
+							<p><input type="checkbox" name="fbl" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black">  </span></p>-->
+							<p><input type="checkbox" name="jyd" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Junkyard </span></p>
+							<p><input type="checkbox" name="quz" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Quiz </span></p>
 						</div>
+
 						<div class="col-sm-4">
-							<p><input type="checkbox" name="agk" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Algo Geeks </span></p>
-							<p><input type="checkbox" name="gck" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black">  </span></p>
-							<p><input type="checkbox" name="fbl" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black">  </span></p>
-							<p><input type="checkbox" name="jyd" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Junkyard </span></p>
-							<p><input type="checkbox" name="quz" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Quiz </span></p>
+							
+							<p><input type="checkbox" name="nfs" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> NFS </span></p>
+							<p><input type="checkbox" name="ffa" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> FIFA </span></p>
+							<!--<p><input type="checkbox" name="dta" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black">  </span></p>-->
+							<p><input type="checkbox" name="cts" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> CS </span></p>
 						</div>
+						
 					</div>
 					
 					<br><br><br>

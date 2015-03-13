@@ -62,11 +62,59 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
+
 $name=mysqli_real_escape_string($conn, $_POST['nme']);
 $institute=mysqli_real_escape_string($conn, $_POST['clg']);
 $mobile=mysqli_real_escape_string($conn, $_POST['cnt']);
 $email=mysqli_real_escape_string($conn, $_POST['eml']);
 $hometown=mysqli_real_escape_string($conn, $_POST['htw']);
+
+
+$bridge="N";
+$explo="N";
+$box="N";
+$rob="N";
+$algo="N";
+$mom="N";
+$junk="N";
+$quiz="N";
+$nfs="N";
+$fifa="N";
+$cs="N";
+
+if(isset($_POST['byg'])){
+$bridge=mysqli_real_escape_string($conn, $_POST['byg']);
+}
+if(isset($_POST['roe'])){
+$explo=mysqli_real_escape_string($conn, $_POST['roe']);
+}
+if(isset($_POST['rbx'])){
+$box=mysqli_real_escape_string($conn, $_POST['rbx']);
+}
+if(isset($_POST['rbl'])){
+$rob=mysqli_real_escape_string($conn, $_POST['rbl']);
+}
+if(isset($_POST['agk'])){
+$algo=mysqli_real_escape_string($conn, $_POST['agk']);
+}
+if(isset($_POST['mtk'])){
+$mom=mysqli_real_escape_string($conn, $_POST['mtk']);
+}
+if(isset($_POST['jyd'])){
+$junk=mysqli_real_escape_string($conn, $_POST['jyd']);
+}
+if(isset($_POST['quz'])){
+$quiz=mysqli_real_escape_string($conn, $_POST['quz']);
+}
+if(isset($_POST['nfs'])){
+$nfs=mysqli_real_escape_string($conn, $_POST['nfs']);
+}
+if(isset($_POST['ffa'])){
+$fifa=mysqli_real_escape_string($conn, $_POST['ffa']);
+}
+if(isset($_POST['cts'])){
+$cs=mysqli_real_escape_string($conn, $_POST['cts']);
+}
 
 
 
@@ -106,7 +154,7 @@ else
 
 if($flag)
 {
-	$sql = "INSERT INTO reg (Name, Institute, Mobile, Email, Hometown ) VALUES ('$name','$institute','$mobile','$email','$hometown')";
+	$sql = "INSERT INTO reg (Name, Institute, Mobile, Email, Hometown, Bridge_Your_Gap, Robo_Exploder, RoBoxing, RoBall, Algo_Geeks, Momentika, Junkyard, Quiz, NFS, FIFA, CS) VALUES ('$name','$institute','$mobile','$email','$hometown','$bridge','$explo','$box','$rob','$algo','$mom','$junk','$quiz','$nfs','$fifa','$cs')";
 }
 
 
