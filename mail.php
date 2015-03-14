@@ -4,7 +4,7 @@
 </head>
 <body>
 <?php
-   $to = "ari.clicks@gmail.com";
+   $to = "hahah@kak.in";
    $subject = "This is subject";
    $message = "This is simple text message.";
    $header = "From:info@snklp.in \r\n";

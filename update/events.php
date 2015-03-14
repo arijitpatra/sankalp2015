@@ -16,90 +16,90 @@
 
 <body>
 
-<div id="nav-bar">
+	<div id="nav-bar">
 		<div class="wrapper">
-			<a href="landing.html" style="text-decoration:none"><div id="logo-container">
+			<a href="index.php" style="text-decoration:none"><div id="logo-container">
 				<img src="sankalp2.png" width="200px">
 			</div></a>
 
-			<a href="reg.php" style="text-decoration:none"><div id="button-container">
+			<a href="register.php" style="text-decoration:none"><div id="button-container">
 				REGISTER
- 			</div></a>
+			</div></a>
 		</div>	
-</div>
-
-<br><br><br><br>
-
-<div id="event-names">
-	
-	<div id="event-byg" onclick="scrollTo('#head')">
-		Bridge Your Gap
 	</div>
 
-	<div id="event-roboexploder" onclick="scrollTo('#head')">
-		Robo Exploder
+	<br><br><br><br>
+
+	<div id="event-names">
+		
+		<div id="event-byg" onclick="scrollTo('#head')">
+			Bridge Your Gap
+		</div>
+
+		<div id="event-roboexploder" onclick="scrollTo('#head')">
+			Robo Exploder
+		</div>
+
+		<div id="event-roboxing" onclick="scrollTo('#head')">
+			RoBoxing
+		</div>
+
+		<div id="event-roball" onclick="scrollTo('#head')">
+			RoBall
+		</div>
+
+		<br>
+		
+		<div id="event-coding" onclick="scrollTo('#head')">
+			Algo Geeks
+		</div>
+
+		<div id="event-momentika" onclick="scrollTo('#head')">
+			Momentika
+		</div>
+		
+		<div id="event-junkyard" onclick="scrollTo('#head')">
+			Junkyard
+		</div>
+
+		<div id="event-quiz" onclick="scrollTo('#head')">
+			Quiz
+		</div>
+
+		<br>
+
+		<div id="event-nfs" onclick="scrollTo('#head')">
+			NFS
+		</div>
+
+		<div id="event-fifa" onclick="scrollTo('#head')">
+			FIFA
+		</div>
+
+		<div id="event-cs" onclick="scrollTo('#head')">
+			CS
+		</div>
+
 	</div>
 
-	<div id="event-roboxing" onclick="scrollTo('#head')">
-		RoBoxing
+	<div class="space"></div>
+
+	<div id="head">
+		Rules & Regulations
 	</div>
 
-	<div id="event-roball" onclick="scrollTo('#head')">
-		RoBall
-	</div>
-
-	<br>
-	
-	<div id="event-coding" onclick="scrollTo('#head')">
-		Algo Geeks
-	</div>
-
-	<div id="event-momentika" onclick="scrollTo('#head')">
-		Momentika
-	</div>
-	
-	<div id="event-junkyard" onclick="scrollTo('#head')">
-		Junkyard
-	</div>
-
-	<div id="event-quiz" onclick="scrollTo('#head')">
-		Quiz
-	</div>
-
-	<br>
-
-	<div id="event-nfs" onclick="scrollTo('#head')">
-		NFS
-	</div>
-
-	<div id="event-fifa" onclick="scrollTo('#head')">
-		FIFA
-	</div>
-
-	<div id="event-cs" onclick="scrollTo('#head')">
-		CS
-	</div>
-
-</div>
-
-<div class="space"></div>
-
-<div id="head">
-	Rules & Regulations
-</div>
-
-<p style="text-align: center;font-family: 'Open Sans', sans-serif;font-size: 25px;color:#0D5959;top: 195px;position: relative;">Coming Soon.</p>
+	<p style="text-align: center;font-family: 'Open Sans', sans-serif;font-size: 25px;color:#0D5959;top: 195px;position: relative;">Coming Soon.</p>
 
 
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
+	<div class="space"></div>
+	<div class="space"></div>
+	<div class="space"></div>
 <!--<div class="space"></div>
-<div class="space"></div>-->
+	<div class="space"></div>-->
 
 
 
-<div id="footer">
+	<div id="footer">
 		<div id="pattern">.</div>
 		<div id="foot-text"><p><span style="font-size:25px">see you at</span><br><span style="font-size:45px">Sankalp '15 :)</span></p></div>
 		<div id="social-links">
@@ -120,19 +120,19 @@
 	</div>
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
-<script type="text/javascript" src="kinetic.js"></script> 
-<script type="text/javascript" src="jquery.final-countdown.js"></script> 
+	<script type="text/javascript" src="kinetic.js"></script> 
+	<script type="text/javascript" src="jquery.final-countdown.js"></script> 
 
-<script type="text/javascript">
-	function scrollTo(target)
-	{
-		$('html,body').animate({
-			scrollTop: parseInt($(target).offset().top)
-		})
-	}
-</script>
+	<script type="text/javascript">
+		function scrollTo(target)
+		{
+			$('html,body').animate({
+				scrollTop: parseInt($(target).offset().top)
+			})
+		}
+	</script>
 
-<script>
+	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
