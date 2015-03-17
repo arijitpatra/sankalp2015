@@ -291,6 +291,23 @@ html,body
 
 }
 
+#event-circuit
+{
+	text-align: center;
+	padding: 35px 15px;
+	border: 1px solid #28ae7f;
+	background-color: white;
+	color: #28ae7f;
+	font-family: 'Open sans', sans-serif;
+	transition: all 0.5s;
+	cursor: pointer;
+	display: inline-block;
+	width: 300px;
+	margin: 15px;
+	font-size: 25px;
+
+}
+
 #event-fyw
 {
 	text-align: center;
@@ -436,6 +453,15 @@ html,body
 	cursor: pointer;
 }
 
+#event-circuit:hover
+{
+	border: 1px solid #28ae7f;
+	background-color: #28ae7f;
+	color: white;
+	font-family: 'Open sans', sans-serif;
+	cursor: pointer;
+}
+
 #head
 {
 	height: 135px;
@@ -459,7 +485,46 @@ html,body
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 35px;
-	padding-top: 35px;
+	padding-top: 45px;
+
+}
+
+#quiz-head
+{
+	height: 135px;
+	width:100%;
+	background-color: #0D5959;
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35px;
+	padding-top: 45px;
+
+}
+
+#cs-head
+{
+	height: 135px;
+	width:100%;
+	background-color: #0D5959;
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35px;
+	padding-top: 45px;
+
+}
+
+#circuit-head
+{
+	height: 135px;
+	width:100%;
+	background-color: #0D5959;
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35px;
+	padding-top: 45px;
 
 }
 
@@ -472,7 +537,7 @@ html,body
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 35px;
-	padding-top: 35px;
+	padding-top: 45px;
 
 }
 
@@ -485,7 +550,7 @@ html,body
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 35px;
-	padding-top: 35px;
+	padding-top: 45px;
 
 }
 
@@ -498,7 +563,7 @@ html,body
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 35px;
-	padding-top: 35px;
+	padding-top: 45px;
 
 }
 
@@ -511,7 +576,7 @@ html,body
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 35px;
-	padding-top: 35px;
+	padding-top: 45px;
 
 }
 
@@ -524,7 +589,7 @@ html,body
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 35px;
-	padding-top: 35px;
+	padding-top: 45px;
 
 }
 
@@ -538,7 +603,7 @@ html,body
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 35px;
-	padding-top: 35px;
+	padding-top: 45px;
 
 }
 
@@ -551,7 +616,7 @@ html,body
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 35px;
-	padding-top: 35px;
+	padding-top: 45px;
 
 }
 
@@ -565,7 +630,7 @@ html,body
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 35px;
-	padding-top: 35px;
+	padding-top: 45px;
 
 }
 
@@ -578,7 +643,7 @@ html,body
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 35px;
-	padding-top: 35px;
+	padding-top: 45px;
 
 }
 
@@ -591,7 +656,7 @@ html,body
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 35px;
-	padding-top: 35px;
+	padding-top: 45px;
 
 }
 
@@ -604,7 +669,7 @@ html,body
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 35px;
-	padding-top: 35px;
+	padding-top: 45px;
 
 }
 
