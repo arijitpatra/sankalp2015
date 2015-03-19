@@ -378,7 +378,7 @@
 		#team-head
 		{
 			height: 135px;
-			width: 100%;
+			width:100%;
 			background-color: #0D5959;
 			color: white;
 			text-align: center;
@@ -388,7 +388,7 @@
 
 		}
 
-		.member2
+		.member
 		{
 
 			margin: 50px 25px;
@@ -399,32 +399,8 @@
 
 		}
 
-		.member
-		{
-
-			margin: 20px 20px;
-			top: 10%;
-			display: inline-block;
-			min-height: 175px;
-			height: auto;
-			width: 105px;
-			vertical-align: top;
-
-		}
-
 
 		.member-pic
-		{
-			border-radius: 50%;
-			width: 105px;
-			height: 105px;
-			border: 2px solid #25383C;
-			box-shadow: 0px 0px 5px 0px #000;
-			transition: all 0.5s;
-
-		}
-
-		.member-pic2
 		{
 			border-radius: 50%;
 			width: 150px;
@@ -436,11 +412,6 @@
 		}
 
 		.member:hover .member-pic
-		{
-			box-shadow: 0px 0px 12px 0px #28ae7f;
-		}
-
-		.member2:hover .member-pic2
 		{
 			box-shadow: 0px 0px 12px 0px #28ae7f;
 		}
@@ -572,6 +543,8 @@
 
 
 	</style>
+
+	
 
 </head>
 
@@ -706,7 +679,7 @@
 			<div id="page-nav">
 				<p id="menus">
 					<a class="navs" href="events.php" style="text-decoration:none;color:white">EVENTS</a>
-					<a class="navs" href="timing.pdf" style="text-decoration:none;color:white">SCHEDULE</a>				
+					<a class="navs" href="#" style="text-decoration:none;color:white" onclick="alert('Coming Soon')">SCHEDULE</a>				
 					<a class="navs" href="#" style="text-decoration:none;color:white" onclick="scrollTo('#sponsor-head')">SPONSORS</a>
 					<a class="navs" href="#" style="text-decoration:none;color:white" onclick="scrollTo('#team-head')">TEAM SANKALP</a>
 					<a class="navs" href="#" style="text-decoration:none;color:white" onclick="scrollTo('#map-head')">LOCATION</a>
@@ -756,8 +729,8 @@
 			<div id="team">
 
 				<p>
-					<div class="member2">
-						<img class="member-pic2" src="sh.jpg">
+					<div class="member">
+						<img class="member-pic" src="sh.jpg">
 						<div class="member-info"><p><h3>Prof. Suman Haldar</h3>Technical Advisor</p></div>
 					</div>
 				</p>
@@ -792,13 +765,13 @@
 						<div class="member-info"><p><h3>Vikash Bhakta</h3>CSE,4th Yr</p></div>
 					</div>
 
+				</p>
+				<!--end 4th yr-->
 
-					<!--end 4th yr-->
+				<br>
 
-
-
-					<!--3rd Yr-->
-
+				<!--3rd Yr-->
+				<p>
 
 					<div class="member">
 						<img class="member-pic" src="sid.jpg">
@@ -860,155 +833,11 @@
 						<div class="member-info"><p><h3>Rohan Nevatia</h3>CSE,3rd Yr</p></div>
 					</div>
 
-					<div class="member">
-						<img class="member-pic" src="souvik.jpg">
-						<div class="member-info"><p><h3>Souvik Mitra</h3>ECE,3rd Yr</p></div>
-					</div>
-
-
-					<!--end 3rd yr-->
-
-					<!--2nd yr-->
-					<div class="member">
-						<img class="member-pic" src="abhijeet.jpg">
-						<div class="member-info"><p><h3>Abhijeet Tuldhor</h3>ME,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="ananya.jpg">
-						<div class="member-info"><p><h3>Ananya Purba Sengupta</h3>ECE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="ananyam.jpg">
-						<div class="member-info"><p><h3>Ananya Mishra</h3>BT,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="ankita2.JPG">
-						<div class="member-info"><p><h3>Ankita Chatterjee</h3>ECE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="atin.jpg">
-						<div class="member-info"><p><h3>Atin Tewari</h3>EEE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="chandrani.jpg">
-						<div class="member-info"><p><h3>Chandrani Das</h3>ECE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="faizan.jpg">
-						<div class="member-info"><p><h3>Faizan Ahmed</h3>IT,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="gauravd.jpg">
-						<div class="member-info"><p><h3>Gaurav Dwivedi</h3>ECE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="gaurav.jpg">
-						<div class="member-info"><p><h3>Gaurav Kumar</h3>ECE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="gurmit.jpg">
-						<div class="member-info"><p><h3>Gurmit Singh</h3>BT,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="hanuman.JPG">
-						<div class="member-info"><p><h3>Hanuman Prasad</h3>ECE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="joy.jpg">
-						<div class="member-info"><p><h3>Joy Ghosh</h3>ECE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="kajal.jpg">
-						<div class="member-info"><p><h3>Kajal Sah</h3>ECE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="priya2.jpg">
-						<div class="member-info"><p><h3>Priya Mal</h3>CSE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="purnima.jpg">
-						<div class="member-info"><p><h3>Purnima</h3>CSE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="quainat.jpg">
-						<div class="member-info"><p><h3>Quainat Jahan</h3>ECE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="soumyadip.jpg">
-						<div class="member-info"><p><h3>Soumyadip Chattopadhyay</h3>ECE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="sanjana.jpg">
-						<div class="member-info"><p><h3>Sanjana Jaiswal</h3>CSE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="sanjay.jpg">
-						<div class="member-info"><p><h3>Sanjay Kumar</h3>ECE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="sayani.JPG">
-						<div class="member-info"><p><h3>Sayani Mitra</h3>BT,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="shaheen.jpg">
-						<div class="member-info"><p><h3>Shaheen Akhtar</h3>BT,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="shimpa.jpg">
-						<div class="member-info"><p><h3>Shimpa Mondal</h3>CSE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="shubham.jpg">
-						<div class="member-info"><p><h3>Shubham Saha</h3>ECE,2nd Yr</p></div>
-					</div>
-
-
-					<div class="member">
-						<img class="member-pic" src="shyam.jpg">
-						<div class="member-info"><p><h3>Shyam Roy Bhattacharjee</h3>ME,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="suchismita.jpg">
-						<div class="member-info"><p><h3>Suchismita Saha</h3>CSE,2nd Yr</p></div>
-					</div>
-
-					<div class="member">
-						<img class="member-pic" src="udita.jpg">
-						<div class="member-info"><p><h3>Udita Das</h3>BT,2nd Yr</p></div>
-					</div>
-
-
-					<div class="member">
-						<img class="member-pic" src="vishal.jpg">
-						<div class="member-info"><p><h3>Vishal Shah Gupta</h3>ECE,2nd Yr</p></div>
-					</div>
-
-					<!--end 2nd yr-->
-
 				</p>
+				<!--end 3rd yr-->
+
+				<br>
+
 
 			</div>
 		</div>
@@ -1043,6 +872,7 @@
 
 
 
+
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
 	<script type="text/javascript" src="kinetic.js"></script> 
 	<script type="text/javascript" src="jquery.final-countdown.js"></script> 
@@ -1054,7 +884,7 @@
 		{
 			$('html,body').animate({
 				scrollTop: parseInt($(target).offset().top) - 85
-			}, 2000, 'easeInOutQuart')
+			}, 3000, 'easeInOutQuart')
 		}
 	</script>
 
@@ -1160,34 +990,46 @@
 		// 		});
 		// 		booleanValue = false;
 		// 	}
-
+			
 		// }
 
 		function moveDown(target)
 		{
 			if(booleanValue == true)
-			{
-				$('html,body').animate({
-					scrollTop: parseInt($(target).offset().top) - 85
-				}, 2000, 'easeInOutQuart');
-			booleanValue = false;
+		 	{
+			$('html,body').animate({
+				scrollTop: parseInt($(target).offset().top) - 85
+			}, 3000, 'easeInOutQuart');
+			// booleanValue = false;
 		}
 	}
 
-</script>
+	</script>
 
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<script src="./smooth-scroll.min.js"></script>
+	<script>
+		smoothScroll.init();
+		(function(){alert('34567')})();
+	</script>
+	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	ga('create', 'UA-59413815-1', 'auto');
-	ga('send', 'pageview');
+		ga('create', 'UA-59413815-1', 'auto');
+		ga('send', 'pageview');
 
-</script>
+	</script>
+
+
+
+
+
 
 
 </body>
 
 </html>
+

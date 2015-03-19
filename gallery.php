@@ -37,248 +37,248 @@
 
 							<div class="my-simple-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/1.jpg" itemprop="contentUrl" data-size="755x500">
+							        <a href="/gallerypics/1.JPG" itemprop="contentUrl" data-size="755x500">
 							            <img src="/gallerypics/thumbnails/1.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/2.jpg" itemprop="contentUrl" data-size="667x500">
+							        <a href="/gallerypics/2.JPG" itemprop="contentUrl" data-size="667x500">
 							            <img src="/gallerypics/thumbnails/2.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/3.jpg" itemprop="contentUrl" data-size="755x500">
+							        <a href="/gallerypics/3.JPG" itemprop="contentUrl" data-size="755x500">
 							            <img src="/gallerypics/thumbnails/3.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							       
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/4.jpg" itemprop="contentUrl" data-size="667x500">
+							        <a href="/gallerypics/4.JPG" itemprop="contentUrl" data-size="667x500">
 							            <img src="/gallerypics/thumbnails/4.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/5.jpg" itemprop="contentUrl" data-size="667x500">
+							        <a href="/gallerypics/5.JPG" itemprop="contentUrl" data-size="667x500">
 							            <img src="/gallerypics/thumbnails/5.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/6.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/6.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/6.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/7.jpg" itemprop="contentUrl" data-size="667x500">
+							        <a href="/gallerypics/7.JPG" itemprop="contentUrl" data-size="667x500">
 							            <img src="/gallerypics/thumbnails/7.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/8.jpg" itemprop="contentUrl" data-size="667x500">
+							        <a href="/gallerypics/8.JPG" itemprop="contentUrl" data-size="667x500">
 							            <img src="/gallerypics/thumbnails/8.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/9.jpg" itemprop="contentUrl" data-size="667x500">
+							        <a href="/gallerypics/9.JPG" itemprop="contentUrl" data-size="667x500">
 							            <img src="/gallerypics/thumbnails/9.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/10.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/10.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/10.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/11.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/11.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/11.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/12.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/12.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/12.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/13.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/13.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/13.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/14.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/14.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/14.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/15.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/15.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/15.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/16.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/16.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/16.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/17.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/17.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/17.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/18.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/18.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/18.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/19.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/19.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/19.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/20.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/20.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/20.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/21.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/21.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/21.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/22.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/22.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/22.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							       
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/23.jpg" itemprop="contentUrl" data-size="889x500">
+							        <a href="/gallerypics/23.JPG" itemprop="contentUrl" data-size="889x500">
 							            <img src="/gallerypics/thumbnails/23.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/24.jpg" itemprop="contentUrl" data-size="889x500">
+							        <a href="/gallerypics/24.JPG" itemprop="contentUrl" data-size="889x500">
 							            <img src="/gallerypics/thumbnails/24.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							       
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/25.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/25.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/25.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/26.jpg" itemprop="contentUrl" data-size="889x500">
+							        <a href="/gallerypics/26.JPG" itemprop="contentUrl" data-size="889x500">
 							            <img src="/gallerypics/thumbnails/26.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/27.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/27.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/27.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/28.jpg" itemprop="contentUrl" data-size="889x500">
+							        <a href="/gallerypics/28.JPG" itemprop="contentUrl" data-size="889x500">
 							            <img src="/gallerypics/thumbnails/28.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/29.jpg" itemprop="contentUrl" data-size="889x500">
+							        <a href="/gallerypics/29.JPG" itemprop="contentUrl" data-size="889x500">
 							            <img src="/gallerypics/thumbnails/29.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/30.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/30.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/30.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							  	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/31.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/31.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/31.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/32.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/32.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/32.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/33.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/33.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/33.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/34.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/34.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/34.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        
 							    </figure>
 
 							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-							        <a href="/gallerypics/35.jpg" itemprop="contentUrl" data-size="750x500">
+							        <a href="/gallerypics/35.JPG" itemprop="contentUrl" data-size="750x500">
 							            <img src="/gallerypics/thumbnails/35.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
-							        <figcaption itemprop="caption description">Some Description about the image</figcaption>
+							        <!--<figcaption itemprop="caption description">Some Description about the image</figcaption>-->
 							    </figure>
 
 							</div>

@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="shortcut icon" href="logotitle.png">
-	<link rel="stylesheet" href="./css/events.css">
+	<link rel="stylesheet" href="/css/events.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> 
 
@@ -28,6 +28,8 @@
 		</div>	
 	</div>
 
+	<a href="#nav-bar" onclick="scrollTo('#nav-bar')"><div id="up"><img src="top.png" height="35px"><br>TOP</div></a>
+
 	<br><br><br><br>
 
 	<div id="event-names">
@@ -44,20 +46,23 @@
 			RoBoxing
 		</div>
 
+		<br>
+
 		<div id="event-roball" onclick="scrollTo('#roball-head')">
 			RoBall
 		</div>
 
-		<br>
-		
+
 		<div id="event-coding" onclick="scrollTo('#coding-head')">
-			Algo Geeks
+			Code Clash
 		</div>
 
 		<div id="event-momentika" onclick="scrollTo('#momentika-head')">
 			Momentika
 		</div>
 		
+		<br>
+
 		<div id="event-junkyard" onclick="scrollTo('#junkyard-head')">
 			Junkyard
 		</div>
@@ -66,11 +71,12 @@
 			Quiz
 		</div>
 
-		<br>
-
+		
 		<div id="event-circuit" onclick="scrollTo('#circuit-head')">
 			Circuitrix
 		</div>
+
+		<br>
 
 		<div id="event-nfs" onclick="scrollTo('#nfs-head')">
 			NFS
@@ -86,9 +92,10 @@
 
 	</div>
 
-	<br><br><br><br>
+	<div class="space"></div>
+	<div class="space"></div>
 
-
+	
 	<div id="byg-head">
 		Bridge Your Gap
 	</div><br>
@@ -135,14 +142,14 @@
 				&#8226 There are 2 checkpoint. 50 points will be added for reaching each check point.<br>
 				&#8226 The arena consists of 2 elevated paths which needs to be replaced by the blocks provided nearby having dimensions 15*25*5 cms (L*B*H).<br>
 				&#8226 The inclination will be not more than 10&#176 (degree).<br><br><br>
-				<img src="bridge.png" width="700px"><br>
+				<img src="bridge.png" width="700px" style="margin: 0 auto;display: block;"><br>
 			</span><br><br><br><br><br>
 
 			<span style="font-size:35px">Prizes</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				To be updated soon.
 			</span><br><br><br><br><br>
-			<span style="font-size:35px">Co-odinators</span><br><br>
+			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				Siddhant | Head Co-ordinator | +91 97487 98145<br>
 				Mridul | Head Co-ordinator | +91 86704 80560<br>
@@ -191,7 +198,7 @@
 				&#8226 There will be a inclination, but this will not exceed 30 degrees.<br>
 				&#8226 The design and size of the obstacles in the  track which will try to slow down the bot.<br>
 				&#8226 The arena will consist of various obstacle along with sand, bumpers, water,  Depth of water etc.<br><br><br>
-				<img src="explo.png" width="700px">
+				<img src="explo.png" width="700px" style="margin: 0 auto;display: block;">
 			</span><br><br><br><br><br>
 
 			<span style="font-size:35px">Rules & Regulations</span><br><br>
@@ -211,7 +218,7 @@
 			<span style="font-size:15px;line-height:25px;">
 				To be updated soon.
 			</span><br><br><br><br><br>
-			<span style="font-size:35px">Co-odinators</span><br><br>
+			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				Niraj | Head Co-ordinator | +91 91630 19595<br>
 				Puja | Head Co-ordinator | +91 89275 38381<br>
@@ -266,12 +273,12 @@
 			<span style="font-size:15px;line-height:25px;">
 				To be updated soon.
 			</span><br><br><br><br><br>
-			<span style="font-size:35px">Co-odinators</span><br><br>
+			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				Shaunak | Head Co-ordinator | +91 96096 97528<br>
 				Prashant | Head Co-ordinator | +91 84440 77070<br>
 				Shyamroy  | Co-ordinator | +91 78904 40330<br>
-				Souyadip  | Co-ordinator | +91 90513 48836<br>
+				Soumyadip  | Co-ordinator | +91 90513 48836<br>
 			</span>
 		</div>
 	</div>
@@ -279,7 +286,7 @@
 	<div class="space"></div>
 	<div class="space"></div>
 	<div class="space"></div>
-	<div class="space"></div>S
+	<div class="space"></div>
 
 	<div id="roball-head">
 		RoBall
@@ -321,7 +328,7 @@
 				&#8226 Goal post will be of length 50 cms each.<br>
 				&#8226 A team should consist of 4 members.<br>
 				&#8226 Only one bot from each team is allowed in the arena.<br><br><br>
-				<img src="roball.png" width="700px">
+				<img src="roball.png" width="700px" style="margin: 0 auto;display: block;">
 			</span><br><br><br><br><br>
 
 
@@ -330,7 +337,7 @@
 			<span style="font-size:15px;line-height:25px;">
 				To be updated soon.
 			</span><br><br><br><br><br>
-			<span style="font-size:35px">Co-odinators</span><br><br>
+			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				Raunak | Head Co-ordinator | +91 99034 60234<br>
 				Rakib | Head Co-ordinator | +91 90389 69409<br>
@@ -354,7 +361,7 @@
 
 
 	<div id="coding-head">
-		Algo Geeks
+		Code Clash
 	</div><br>
 	<div class="wrapper">
 		<div class="event-content">
@@ -383,9 +390,11 @@
 			<span style="font-size:15px;line-height:25px;">
 				To be updated soon.
 			</span><br><br><br><br><br>
-			<span style="font-size:35px">Co-odinators</span><br><br>
+			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				Abhay | Head Co-ordinator | +91 91636 87568<br>
+				Swagnik | Head Co-ordinator | +91 98742 81676<br>
+				Ayan | Head Co-ordinator | +91 91266 77338<br>
 				Shaheen | Co-ordinator | +91 90518 14167<br>
 				Faizan | Co-ordinator | +91 89726 71892
 			</span>
@@ -440,7 +449,7 @@
 				To be updated soon.
 			</span><br><br><br><br><br>
 
-			<span style="font-size:35px">Co-odinators</span><br><br>
+			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				Arijit | Head Co-ordinator | +91 94775 89925<br>
 				Priya | Co-ordinator | +91 96694 52557
@@ -474,7 +483,7 @@
 			<span style="font-size:15px;line-height:25px;">
 				To be updated soon.
 			</span><br><br><br><br><br>
-			<span style="font-size:35px">Co-odinators</span><br><br>
+			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				Almas | Head Co-ordinator | +91 99036 68718<br>
 				Sayani | Co-ordinator | +91 86973 72782<br>
@@ -494,7 +503,8 @@
 	</div><br>
 	<div class="wrapper">
 		<div class="event-content">
-			Quiz<hr><br><br>
+			This competion is not about killing others but the time you kill, the knownledge you neglect.
+This competion is all about general knowledge which most of us neglect.<hr><br><br>
 
 			<span style="font-size:35px">Rules & Regulations</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
@@ -571,7 +581,7 @@
 				To be updated soon.
 			</span><br><br><br><br><br>
 
-			<span style="font-size:35px">Co-odinators</span><br><br>
+			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				Sonu | Head Co-ordinator | +91 98328 48280<br>
 				Udita | Co-ordinator | +91 98363 47140<br>
@@ -601,7 +611,8 @@
 	</div><br>
 	<div class="wrapper">
 		<div class="event-content">
-			Play with the wires.<hr><br><br>
+			There must be a positive and negative in everything in the universe in order to complete life or a circuit without which there would be no activity.
+Sankalp'15 invites you to play with wires and make the right connections to complete that ciruit.<hr><br><br>
 			<span style="font-size:35px">Rules & Regulations</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				&#8226 Participents will be provided with all the tools and apparatus.<br>
@@ -618,7 +629,7 @@
 			<span style="font-size:15px;line-height:25px;">
 				To be updated soon.
 			</span><br><br><br><br><br>
-			<span style="font-size:35px">Co-odinators</span><br><br>
+			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				Jishnu | Head Co-ordinator | +91 89725 27324<br>
 				Ankit | Head Co-ordinator | +91 82960 59364<br>
@@ -638,7 +649,7 @@
 	</div><br>
 	<div class="wrapper">
 		<div class="event-content">
-			NFS<hr><br><br>
+			Sankalp '15 gives you a chance to fulfill your dream of driving supercars in a virtual world.<hr><br><br>
 
 			<span style="font-size:35px">Rules & Regulations</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
@@ -697,7 +708,7 @@
 			<span style="font-size:15px;line-height:25px;">
 				To be updated soon.
 			</span><br><br><br><br><br>
-			<span style="font-size:35px">Co-odinators</span><br><br>
+			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				Nishant | Head Co-ordinator | +91 84209 80511<br>
 				Gaurav | Co-ordinator | +91 98041 43262<br>
@@ -723,11 +734,12 @@
 
 
 	<div id="fifa-head">
-		FIFA 11
+		FIFA
 	</div><br>
 	<div class="wrapper">
 		<div class="event-content">
-			FIFA<hr><br><br>
+			Wanna play in top european football clubs then give it a shot at Sanaklp '15.
+<hr><br><br>
 
 			<span style="font-size:35px">Rules & Regulations</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
@@ -783,7 +795,7 @@
 			<span style="font-size:15px;line-height:25px;">
 				To be updated soon.
 			</span><br><br><br><br><br>
-			<span style="font-size:35px">Co-odinators</span><br><br>
+			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				Ehtesham | Head Co-ordinator | +91 90620 98880<br>
 				Govind | Head Co-ordinator | +91 83349 75489<br>
@@ -896,7 +908,7 @@
 			<span style="font-size:15px;line-height:25px;">
 				To be updated soon.
 			</span><br><br><br><br><br>
-			<span style="font-size:35px">Co-odinators</span><br><br>
+			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				Arif | Head Co-ordinator | +91 97495 15893<br>
 				Rohan | Head Co-ordinator | +91 72785 59440<br>
@@ -948,14 +960,35 @@
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
 	<script type="text/javascript" src="kinetic.js"></script> 
 	<script type="text/javascript" src="jquery.final-countdown.js"></script> 
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
 	<script type="text/javascript">
 		function scrollTo(target)
 		{
 			$('html,body').animate({
 				scrollTop: parseInt($(target).offset().top)
-			})
+			}, 2000, 'easeInOutQuart')
 		}
+	</script>
+
+	<script type="text/javascript">
+		scrolled=false;
+		$(window).on('scroll',function(){
+			scrolled = true;
+		});
+
+		setInterval(function (){
+			if(scrolled){
+				if($(window).scrollTop() > $("#byg-head").offset().top){
+					$("#up").show();
+					updateURL: false;					
+				}
+				else{
+					$("#up").hide();
+				} 
+				scrolled = false;
+			}	
+		},100);
 	</script>
 
 	<script>

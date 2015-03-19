@@ -27,6 +27,26 @@ html,body
 	top:27%;
 	left: 3%;
 }
+
+#up
+{
+	height: 35px;
+	float: right;
+	right: 5%;
+	bottom: 5%;
+	color: #0D5959;
+	position: fixed;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Open sans','segoe ui light',sans-serif;
+	display: none;
+}
+
+#up:hover
+		{
+			 
+		}
+
 .wrapper
 {
 	padding: 16px;
