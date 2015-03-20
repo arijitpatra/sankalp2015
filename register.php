@@ -186,7 +186,7 @@
 
 	<p>
 		<br><br>
-		<form id="reg-form" method="post" action="onregister.php">
+		<form id="reg-form" method="post" action="onregister.php" autocomplete="off">
 
 			<div class="input-group input-group-lg">
 				<span class="input-group-btn input-icn">

@@ -730,7 +730,7 @@
 
 
 
-			<div id="sponsor-head"><p>Sponsors<br><span style="font-size:15px">"thank you,we owe a lot to you"</span></p></div>
+			<div id="sponsor-head"><p>Sponsors<br><span style="font-size:15px">"thank you for supporting us"</span></p></div>
 			<div class="wrapper">
 				<div id="sponsor"><p style="font-family:'Open Sans', serif;font-size:25px;color:#0D5959;text-align:center;margin-top: 16%;padding-left: 0%;position:relative">To be updated soon.</div>
 

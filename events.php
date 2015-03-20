@@ -451,8 +451,10 @@
 
 			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
+				Shivalkar | Head Co-ordinator | +91 88207 39205<br>
 				Arijit | Head Co-ordinator | +91 94775 89925<br>
-				Priya | Co-ordinator | +91 96694 52557
+				Priya | Co-ordinator | +91 96694 52557<br>
+				Pratyay | Co-ordinator | +91 98365 77959
 			</span>
 		</div>
 	</div>
