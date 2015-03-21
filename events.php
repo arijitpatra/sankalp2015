@@ -18,7 +18,7 @@
 
 	<div id="nav-bar">
 		<div class="wrapper">
-			<a href="index.php" style="text-decoration:none"><div id="logo-container">
+			<a href="http://www.snklp.in" style="text-decoration:none"><div id="logo-container">
 				<img src="sankalp2.png" width="200px">
 			</div></a>
 
@@ -147,7 +147,9 @@
 
 			<span style="font-size:35px">Prizes</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
-				To be updated soon.
+				&#8226 1st Prize: &#8377 6000<br>
+				&#8226 2nd Prize: &#8377 4000<br>
+				&#8226 3rd Prize: &#8377 2000
 			</span><br><br><br><br><br>
 			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
@@ -216,7 +218,9 @@
 
 			<span style="font-size:35px">Prizes</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
-				To be updated soon.
+				&#8226 1st Prize: &#8377 6000<br>
+				&#8226 2nd Prize: &#8377 4000<br>
+				&#8226 3rd Prize: &#8377 2000
 			</span><br><br><br><br><br>
 			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
@@ -271,7 +275,9 @@
 
 			<span style="font-size:35px">Prizes</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
-				To be updated soon.
+				&#8226 1st Prize: &#8377 6000<br>
+				&#8226 2nd Prize: &#8377 4000<br>
+				&#8226 3rd Prize: &#8377 2000
 			</span><br><br><br><br><br>
 			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
@@ -335,7 +341,9 @@
 
 			<span style="font-size:35px">Prizes</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
-				To be updated soon.
+				&#8226 1st Prize: &#8377 6000<br>
+				&#8226 2nd Prize: &#8377 4000<br>
+				&#8226 3rd Prize: &#8377 2000
 			</span><br><br><br><br><br>
 			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
@@ -368,6 +376,7 @@
 			Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program. <br><br>Are you ready to have fun coding some problem solving challenges? <hr><br><br>
 			<span style="font-size:35px">Rules & Regulations</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
+				&#8226 Max Team Size: 3<br>
 				&#8226 Only one round will be conducted.<br>
 				&#8226 Time Duration: 2.5 - 3 hours<br>
 				&#8226 You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br>
@@ -382,13 +391,13 @@
 			<span style="font-size:15px;line-height:25px;">
 				&#8226 Languages allowed: C,C++,Java<br>
 				&#8226 IDE: CodeBlocks (C,C++) and Netbeans/Eclipse (Java)<br>
-				&#8226 Max Team Size: 3<br>
 				&#8226 Each group will be provided with a single system.
 			</span><br><br><br><br><br>
 
 			<span style="font-size:35px">Prizes</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
-				To be updated soon.
+				&#8226 1st Prize: &#8377 2000<br>
+				&#8226 2nd Prize: &#8377 1000
 			</span><br><br><br><br><br>
 			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
@@ -446,7 +455,8 @@
 
 			<span style="font-size:35px">Prizes</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
-				To be updated soon.
+				&#8226 1st Prize: &#8377 1000<br>
+				&#8226 2nd Prize: &#8377 500
 			</span><br><br><br><br><br>
 
 			<span style="font-size:35px">Co-ordinators</span><br><br>
@@ -483,7 +493,8 @@
 			</span><br><br><br><br><br>
 			<span style="font-size:35px">Prizes</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
-				To be updated soon.
+				&#8226 1st Prize: &#8377 1000<br>
+				&#8226 2nd Prize: &#8377 500
 			</span><br><br><br><br><br>
 			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
@@ -580,7 +591,8 @@ This competion is all about general knowledge which most of us neglect.<hr><br><
 
 			<span style="font-size:35px">Prizes</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
-				To be updated soon.
+				&#8226 1st Prize: &#8377 2000<br>
+				&#8226 2nd Prize: &#8377 1000
 			</span><br><br><br><br><br>
 
 			<span style="font-size:35px">Co-ordinators</span><br><br>
@@ -629,7 +641,8 @@ Sankalp'15 invites you to play with wires and make the right connections to comp
 			</span><br><br><br><br><br>
 			<span style="font-size:35px">Prizes</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
-				To be updated soon.
+				&#8226 1st Prize: &#8377 1000<br>
+				&#8226 2nd Prize: &#8377 500
 			</span><br><br><br><br><br>
 			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
@@ -708,7 +721,8 @@ Sankalp'15 invites you to play with wires and make the right connections to comp
 
 			<span style="font-size:35px">Prizes</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
-				To be updated soon.
+				&#8226 1st Prize: &#8377 2000<br>
+				&#8226 2nd Prize: &#8377 1000
 			</span><br><br><br><br><br>
 			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
@@ -795,7 +809,8 @@ Sankalp'15 invites you to play with wires and make the right connections to comp
 
 			<span style="font-size:35px">Prizes</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
-				To be updated soon.
+				&#8226 1st Prize: &#8377 2000<br>
+				&#8226 2nd Prize: &#8377 1000
 			</span><br><br><br><br><br>
 			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
@@ -908,7 +923,8 @@ Sankalp'15 invites you to play with wires and make the right connections to comp
 
 			<span style="font-size:35px">Prizes</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
-				To be updated soon.
+				&#8226 1st Prize: &#8377 6000<br>
+				&#8226 2nd Prize: &#8377 4000
 			</span><br><br><br><br><br>
 			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">

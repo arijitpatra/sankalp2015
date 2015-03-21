@@ -170,7 +170,7 @@
 
 	<div id="nav-bar">
 		<div class="wrapper">
-			<a href="index.php" style="text-decoration:none"><div id="logo-container">
+			<a href="http://www.snklp.in" style="text-decoration:none"><div id="logo-container">
 				<img src="sankalp2.png" width="200px">
 			</div></a>
 
@@ -240,7 +240,7 @@
 			</div>
 
 			<div class="col-sm-4">
-				<p><input type="checkbox" name="agk" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Algo Geeks </span></p>
+				<p><input type="checkbox" name="agk" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Code Clash </span></p>
 				<p><input type="checkbox" name="mtk" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Momentika </span></p>
 							<!--<p><input type="checkbox" name="gck" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black">  </span></p>
 							<p><input type="checkbox" name="fbl" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black">  </span></p>-->
@@ -250,10 +250,11 @@
 
 						<div class="col-sm-4">
 							
+							<p><input type="checkbox" name="ctx" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> Circuitrix </span></p>
 							<p><input type="checkbox" name="nfs" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> NFS </span></p>
 							<p><input type="checkbox" name="ffa" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> FIFA </span></p>
-							<!--<p><input type="checkbox" name="dta" value="Robotics"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black">  </span></p>-->
 							<p><input type="checkbox" name="cts" value="Y"><span style="font-family: 'Open Sans', serif;font-size:15px;color:black"> CS </span></p>
+				
 						</div>
 						
 					</div>

@@ -615,7 +615,7 @@
 
 	<div id="nav-bar">
 		<div class="wrapper">
-			<a href="index.php" style="text-decoration:none"><div id="logo-container">
+			<a href="http://www.snklp.in" style="text-decoration:none"><div id="logo-container">
 				<img src="sankalp2.png" width="200px">
 			</div></a>
 

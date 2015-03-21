@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -21,7 +20,7 @@
         
         			<div id="nav-bar">
 		<div class="wrapper">
-			<a href="index.php" style="text-decoration:none"><div id="logo-container">
+			<a href="http://www.snklp.in" style="text-decoration:none"><div id="logo-container">
 				<img src="sankalp2.png" width="200px">
 			</div></a>
 
@@ -36,7 +35,7 @@
 					<div class="container">
 
 							<div class="my-simple-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-							    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 							        <a href="/gallerypics/1.JPG" itemprop="contentUrl" data-size="755x500">
 							            <img src="/gallerypics/thumbnails/1.jpg" itemprop="thumbnail" alt="Image description" />
 							        </a>
@@ -280,7 +279,6 @@
 							        </a>
 							        <!--<figcaption itemprop="caption description">Some Description about the image</figcaption>-->
 							    </figure>
-
 							</div>
 
 							<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -369,4 +367,3 @@
 
 </body>  
 </html>
-

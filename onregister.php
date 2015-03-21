@@ -40,7 +40,7 @@
 
 	<div id="nav-bar">
 		<div class="wrapper">
-			<a href="index.php" style="text-decoration:none"><div id="logo-container">
+			<a href="http://www.snklp.in" style="text-decoration:none"><div id="logo-container">
 				<img src="sankalp2.png" width="200px">
 			</div></a>
 
@@ -96,6 +96,7 @@
 	$nfs="N";
 	$fifa="N";
 	$cs="N";
+	$ckt="N";
 
 	if(isset($_POST['byg'])){
 		$bridge=mysqli_real_escape_string($conn, $_POST['byg']);
@@ -129,6 +130,9 @@
 	}
 	if(isset($_POST['cts'])){
 		$cs=mysqli_real_escape_string($conn, $_POST['cts']);
+	}
+	if(isset($_POST['ctx'])){
+		$ckt=mysqli_real_escape_string($conn, $_POST['ctx']);
 	}
 
 
@@ -169,7 +173,7 @@
 
 	if($flag)
 	{
-		$sql = "INSERT INTO reg (Name, Institute, Mobile, Email, Hometown, Bridge_Your_Gap, Robo_Exploder, RoBoxing, RoBall, Algo_Geeks, Momentika, Junkyard, Quiz, NFS, FIFA, CS) VALUES ('$name','$institute','$mobile','$email','$hometown','$bridge','$explo','$box','$rob','$algo','$mom','$junk','$quiz','$nfs','$fifa','$cs')";
+		$sql = "INSERT INTO reg (Name, Institute, Mobile, Email, Hometown, Bridge_Your_Gap, Robo_Exploder, RoBoxing, RoBall, Code_Clash, Momentika, Junkyard, Quiz, Circuitrix, NFS, FIFA, CS) VALUES ('$name','$institute','$mobile','$email','$hometown','$bridge','$explo','$box','$rob','$algo','$mom','$junk','$quiz','$ckt','$nfs','$fifa','$cs')";
 		
 	   
 	}
