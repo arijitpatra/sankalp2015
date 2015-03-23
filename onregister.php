@@ -44,7 +44,7 @@
 				<img src="sankalp2.png" width="200px">
 			</div></a>
 
-			<a href="events.php" style="text-decoration:none"><div id="button-container">
+			<a href="events" style="text-decoration:none"><div id="button-container">
 				EVENTS
 			</div></a>
 		</div>	
@@ -181,7 +181,7 @@
 
 
 	if ($flag && mysqli_query($conn, $sql)) {
-		echo '<div id="response">Thank You for registering! See you at Sankalp 2015.<br>Registration ID: SNKLP0'. mysqli_insert_id($conn). '<br><br><br>Got some time?<br>Visit the Sankalp <a id="gallery-container" href="gallery.php" style="text-decoration:none;">Gallery</a></div>'; 
+		echo '<div id="response">Thank You for registering! See you at Sankalp 2015.<br>Registration ID: SNKLP0'. mysqli_insert_id($conn). '<br><br><br>Got some time?<br>Visit the Sankalp <a id="gallery-container" href="gallery" style="text-decoration:none;">Gallery</a></div>'; 
 	
 		$to = $email;
 	   $subject = "Registration Successful | Sankalp 2015";
@@ -190,7 +190,7 @@
 	   $retval = mail ($to,$subject,$message,$header);
 	} 
 	else {
-		echo '<div id="response">'.$msg.'<br><br><br>Got some time?<br>Visit the Sankalp <a id="gallery-container" href="gallery.php" style="text-decoration:none;">Gallery</a></div>'; 
+		echo '<div id="response">'.$msg.'<br><br><br>Got some time?<br>Visit the Sankalp <a id="gallery-container" href="gallery" style="text-decoration:none;">Gallery</a></div>'; 
 	}
 
 

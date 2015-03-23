@@ -24,7 +24,7 @@
 				<img src="sankalp2.png" width="200px">
 			</div></a>
 
-			<a href="events.php" style="text-decoration:none"><div id="button-container">
+			<a href="events" style="text-decoration:none"><div id="button-container">
 				EVENTS
  			</div></a>
 		</div>	

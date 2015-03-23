@@ -552,6 +552,14 @@
 			opacity: 0.8;
 		}
 
+		.sponsorslogo
+		{
+			  margin: 10px;
+			  position: relative;
+			  display: inline-block;
+			  width: 175px;
+		}
+
 		@media(max-width: 1000px){
 			#countdown{
 				display: none;
@@ -620,7 +628,7 @@
 			</div></a>
 
 			<div id="menu-icon" onclick="scrollTo('#menus')"><span class="glyphicon glyphicon-list"></span></div>
-			<a href="register.php" style="text-decoration:none"><div id="button-container">
+			<a href="register" style="text-decoration:none"><div id="button-container">
 				REGISTER
 			</div></a>
 			
@@ -705,12 +713,12 @@
 			
 			<div id="page-nav">
 				<p id="menus">
-					<a class="navs" href="events.php" style="text-decoration:none;color:white">EVENTS</a>
+					<a class="navs" href="events" style="text-decoration:none;color:white">EVENTS</a>
 					<a class="navs" href="timing.pdf" style="text-decoration:none;color:white">SCHEDULE</a>				
 					<a class="navs" href="#" style="text-decoration:none;color:white" onclick="scrollTo('#sponsor-head')">SPONSORS</a>
 					<a class="navs" href="#" style="text-decoration:none;color:white" onclick="scrollTo('#team-head')">TEAM SANKALP</a>
 					<a class="navs" href="#" style="text-decoration:none;color:white" onclick="scrollTo('#map-head')">LOCATION</a>
-					<a class="navs" href="gallery.php" style="text-decoration:none;color:white">GALLERY</a>
+					<a class="navs" href="gallery" style="text-decoration:none;color:white">GALLERY</a>
 				</p>
 			</div><hr>
 
@@ -732,7 +740,7 @@
 
 			<div id="sponsor-head"><p>Sponsors<br><span style="font-size:15px">"thank you for supporting us"</span></p></div>
 			<div class="wrapper">
-				<div id="sponsor"><p style="font-family:'Open Sans', serif;font-size:25px;color:#0D5959;text-align:center;margin-top: 16%;padding-left: 0%;position:relative">To be updated soon.</div>
+				<div id="sponsor"><p style="font-family:'Open Sans', serif;font-size:25px;color:#0D5959;text-align:center;margin-top: 16%;padding-left: 0%;position:relative"><div style="text-align:center"><img class="sponsorslogo" src="/sponsors/arti.png"><img class="sponsorslogo" src="/sponsors/bhikshoo.png"><img class="sponsorslogo" src="/sponsors/kunalbros.png"><img class="sponsorslogo" src="/sponsors/kunalenter.png"><img class="sponsorslogo" src="/sponsors/nagji.png"><img class="sponsorslogo" src="/sponsors/paras.png"><img class="sponsorslogo" src="/sponsors/logicvilla.png"></div></div>
 
 			</div>	
 
@@ -758,7 +766,7 @@
 				<p>
 					<div class="member2">
 						<img class="member-pic2" src="sh.jpg">
-						<div class="member-info"><p><h3>Prof. Suman Haldar</h3>Technical Advisor</p></div>
+						<div class="member-info"><p><h3>Prof. Suman Haldar</h3>Faculty Co-ordinator</p></div>
 					</div>
 				</p>
 
@@ -790,6 +798,26 @@
 					<div class="member">
 						<img class="member-pic" src="vikash.jpg">
 						<div class="member-info"><p><h3>Vikash Bhakta</h3>CSE,4th Yr</p></div>
+					</div>
+
+					<div class="member">
+						<img class="member-pic" src="nabonita.jpg">
+						<div class="member-info"><p><h3>Nabonita Bhowmick</h3>EEE,4th Yr</p></div>
+					</div>
+
+					<div class="member">
+						<img class="member-pic" src="gazala.jpg">
+						<div class="member-info"><p><h3>Gazala Parween</h3>IT,4th Yr</p></div>
+					</div>
+
+					<div class="member">
+						<img class="member-pic" src="sonali.jpg">
+						<div class="member-info"><p><h3>Sonali Sharma</h3>EEE,4th Yr</p></div>
+					</div>
+
+					<div class="member">
+						<img class="member-pic" src="harsh.jpg">
+						<div class="member-info"><p><h3>Harsh Kumar</h3>CSE,4th Yr</p></div>
 					</div>
 
 

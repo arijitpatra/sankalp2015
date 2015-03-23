@@ -22,7 +22,7 @@
 				<img src="sankalp2.png" width="200px">
 			</div></a>
 
-			<a href="register.php" style="text-decoration:none"><div id="button-container">
+			<a href="register" style="text-decoration:none"><div id="button-container">
 				REGISTER
 			</div></a>
 		</div>	
@@ -283,6 +283,7 @@
 			<span style="font-size:15px;line-height:25px;">
 				Shaunak | Head Co-ordinator | +91 96096 97528<br>
 				Prashant | Head Co-ordinator | +91 84440 77070<br>
+				Souvik | Head Co-ordinator | +91 84366 33675<br>
 				Shyamroy  | Co-ordinator | +91 78904 40330<br>
 				Soumyadip  | Co-ordinator | +91 90513 48836<br>
 			</span>
@@ -377,6 +378,7 @@
 			<span style="font-size:35px">Rules & Regulations</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				&#8226 Max Team Size: 3<br>
+				&#8226 The event will be offline.<br>
 				&#8226 Only one round will be conducted.<br>
 				&#8226 Time Duration: 2.5 - 3 hours<br>
 				&#8226 You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br>
@@ -598,6 +600,7 @@ This competion is all about general knowledge which most of us neglect.<hr><br><
 			<span style="font-size:35px">Co-ordinators</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
 				Sonu | Head Co-ordinator | +91 98328 48280<br>
+				Ankita | Head Co-ordinator | +91 89428 66847<br>
 				Udita | Co-ordinator | +91 98363 47140<br>
 				Saswati | Co-ordinator | +91 97489 60386
 			</span>
@@ -629,7 +632,7 @@ This competion is all about general knowledge which most of us neglect.<hr><br><
 Sankalp'15 invites you to play with wires and make the right connections to complete that ciruit.<hr><br><br>
 			<span style="font-size:35px">Rules & Regulations</span><br><br>
 			<span style="font-size:15px;line-height:25px;">
-				&#8226 Participents will be provided with all the tools and apparatus.<br>
+				&#8226 Participants will be provided with all the tools and apparatus.<br>
 				&#8226 This will be a 3 round event .<br>
 				&#8226 First round will be a qualifying round in which participants will have to make (draw on a paper) the circuit according to the problem statement given.<br>
 				&#8226 Second round will be an event in which participants have to find errors in the given circuit and fix the problem accordingly.<br>

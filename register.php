@@ -174,7 +174,7 @@
 				<img src="sankalp2.png" width="200px">
 			</div></a>
 
-			<a href="events.php" style="text-decoration:none"><div id="button-container">
+			<a href="events" style="text-decoration:none"><div id="button-container">
 				EVENTS
 			</div></a>
 		</div>	
@@ -186,7 +186,7 @@
 
 	<p>
 		<br><br>
-		<form id="reg-form" method="post" action="onregister.php" autocomplete="off">
+		<form id="reg-form" method="post" action="onregister" autocomplete="off">
 
 			<div class="input-group input-group-lg">
 				<span class="input-group-btn input-icn">
